@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --radius: 0.75rem;
+  }
+
+  body {
+    @apply bg-gradient-to-b from-green-50 via-emerald-50 to-lime-50 text-gray-900;
+  }
+}

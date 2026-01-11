@@ -1,0 +1,898 @@
+﻿Type,Disease,Growth Stage,Fertilizer,Quantity,Frequency,Notes,Soil Type,Weather
+Leaf,Healthy,Seedling,Organic Compost,226g,Monthly,Ensure proper drainage,Clay,Dry season
+Fruit,Healthy,Seedling,Organic Compost,151g,Monthly,Ensure proper drainage,Clay,Rainy season
+Leaf,Healthy,Seedling,Organic Compost,242g,Monthly,Avoid wetting leaves,Clay,Both
+Leaf,Healthy,Seedling,Organic Compost,171g,Monthly,Mix lightly into topsoil,Loam,Dry season
+Leaf,Healthy,Seedling,Organic Compost,327g,Monthly,Clean fallen fruits,Loam,Rainy season
+Leaf,Healthy,Seedling,Organic Compost,346g,Monthly,Avoid excess watering,Loam,Both
+Leaf,Healthy,Seedling,Organic Compost,339g,Monthly,Avoid wetting leaves,Sandy,Dry season
+Leaf,Healthy,Seedling,Organic Compost,265g,Monthly,Ensure proper drainage,Sandy,Rainy season
+Leaf,Healthy,Seedling,Organic Compost,161g,Monthly,Avoid excess watering,Sandy,Both
+Fruit,Healthy,Seedling,Organic Compost,178g,Monthly,Avoid wetting leaves,Not sure,Dry season
+Leaf,Healthy,Seedling,Organic Compost,294g,Monthly,Ensure proper drainage,Not sure,Rainy season
+Leaf,Healthy,Seedling,Organic Compost,237g,Monthly,Avoid wetting leaves,Not sure,Both
+Leaf,Healthy,Vegetative,Organic Compost,210g,Bi-Weekly,Ensure proper drainage,Clay,Dry season
+Leaf,Healthy,Vegetative,Bio Fertilizer,27ml,Weekly,Mix lightly into topsoil,Clay,Both
+Fruit,Healthy,Vegetative,MOP,15g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Fruit,Healthy,Vegetative,MOP,22g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Fruit,Healthy,Vegetative,Urea,13g,Weekly,Clean fallen fruits,Loam,Both
+Leaf,Healthy,Vegetative,NPK Mixture,15g,Monthly,Ensure proper drainage,Sandy,Dry season
+Leaf,Healthy,Vegetative,Farmyard Manure,220g,Monthly,Avoid excess watering,Sandy,Rainy season
+Leaf,Healthy,Vegetative,Farmyard Manure,251g,Bi-Weekly,Avoid excess watering,Sandy,Both
+Leaf,Healthy,Vegetative,TSP,8g,Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Healthy,Vegetative,Farmyard Manure,285g,Weekly,Avoid wetting leaves,Not sure,Rainy season
+Fruit,Healthy,Vegetative,Organic Compost,165g,Weekly,Ensure proper drainage,Not sure,Both
+Leaf,Healthy,Flowering,TSP,13g,Weekly,Mix lightly into topsoil,Clay,Dry season
+Leaf,Healthy,Flowering,TSP,19g,Monthly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Healthy,Flowering,TSP,21g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Fruit,Healthy,Flowering,TSP,11g,Monthly,Clean fallen fruits,Loam,Dry season
+Fruit,Healthy,Flowering,TSP,8g,Weekly,Ensure proper drainage,Loam,Rainy season
+Fruit,Healthy,Flowering,TSP,19g,Bi-Weekly,Clean fallen fruits,Loam,Both
+Leaf,Healthy,Flowering,TSP,18g,Weekly,Ensure proper drainage,Sandy,Dry season
+Leaf,Healthy,Flowering,TSP,12g,Bi-Weekly,Mix lightly into topsoil,Sandy,Rainy season
+Leaf,Healthy,Flowering,TSP,22g,Weekly,Mix lightly into topsoil,Sandy,Both
+Fruit,Healthy,Flowering,TSP,18g,Monthly,Clean fallen fruits,Not sure,Dry season
+Fruit,Healthy,Flowering,TSP,8g,Monthly,Clean fallen fruits,Not sure,Rainy season
+Fruit,Healthy,Flowering,TSP,17g,Monthly,Mix lightly into topsoil,Not sure,Both
+Leaf,Healthy,Fruiting,MOP,17g,Bi-Weekly,Avoid wetting leaves,Clay,Dry season
+Fruit,Healthy,Fruiting,MOP,19g,Bi-Weekly,Avoid excess watering,Clay,Rainy season
+Fruit,Healthy,Fruiting,MOP,14g,Bi-Weekly,Avoid wetting leaves,Clay,Both
+Leaf,Healthy,Fruiting,MOP,13g,Bi-Weekly,Mix lightly into topsoil,Loam,Dry season
+Leaf,Healthy,Fruiting,MOP,23g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Leaf,Healthy,Fruiting,MOP,17g,Bi-Weekly,Avoid excess watering,Loam,Both
+Leaf,Healthy,Fruiting,MOP,23g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Leaf,Healthy,Fruiting,MOP,25g,Bi-Weekly,Clean fallen fruits,Sandy,Rainy season
+Fruit,Healthy,Fruiting,MOP,13g,Bi-Weekly,Apply after irrigation,Sandy,Both
+Leaf,Healthy,Fruiting,MOP,8g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Healthy,Fruiting,MOP,23g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Leaf,Healthy,Fruiting,MOP,18g,Bi-Weekly,Apply after irrigation,Not sure,Both
+Leaf,Scab,Seedling,NPK Mixture,25g,Monthly,Ensure proper drainage,Clay,Dry season
+Fruit,Scab,Seedling,NPK Mixture,19g,Monthly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Scab,Seedling,NPK Mixture,13g,Monthly,Ensure proper drainage,Clay,Both
+Leaf,Scab,Seedling,NPK Mixture,23g,Monthly,Clean fallen fruits,Loam,Dry season
+Fruit,Scab,Seedling,NPK Mixture,11g,Monthly,Mix lightly into topsoil,Loam,Rainy season
+Leaf,Scab,Seedling,NPK Mixture,10g,Monthly,Ensure proper drainage,Loam,Both
+Fruit,Scab,Seedling,NPK Mixture,18g,Monthly,Apply after irrigation,Sandy,Dry season
+Fruit,Scab,Seedling,NPK Mixture,19g,Monthly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Scab,Seedling,NPK Mixture,13g,Monthly,Apply after irrigation,Sandy,Both
+Fruit,Scab,Seedling,NPK Mixture,11g,Monthly,Ensure proper drainage,Not sure,Dry season
+Leaf,Scab,Seedling,NPK Mixture,10g,Monthly,Avoid excess watering,Not sure,Rainy season
+Fruit,Scab,Seedling,NPK Mixture,22g,Monthly,Apply after irrigation,Not sure,Both
+Fruit,Scab,Vegetative,NPK Mixture,23g,Bi-Weekly,Avoid excess watering,Clay,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,18g,Bi-Weekly,Apply after irrigation,Clay,Rainy season
+Fruit,Scab,Vegetative,NPK Mixture,9g,Weekly,Clean fallen fruits,Clay,Both
+Fruit,Scab,Vegetative,NPK Mixture,8g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,19g,Bi-Weekly,Ensure proper drainage,Loam,Rainy season
+Leaf,Scab,Vegetative,NPK Mixture,21g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Fruit,Scab,Vegetative,NPK Mixture,12g,Weekly,Ensure proper drainage,Sandy,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,19g,Monthly,Mix lightly into topsoil,Sandy,Rainy season
+Leaf,Scab,Vegetative,NPK Mixture,9g,Monthly,Clean fallen fruits,Sandy,Both
+Fruit,Scab,Vegetative,NPK Mixture,12g,Monthly,Ensure proper drainage,Not sure,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,21g,Bi-Weekly,Avoid excess watering,Not sure,Rainy season
+Leaf,Scab,Vegetative,NPK Mixture,11g,Weekly,Clean fallen fruits,Not sure,Both
+Leaf,Scab,Flowering,NPK Mixture,23g,Weekly,Clean fallen fruits,Clay,Dry season
+Leaf,Scab,Flowering,NPK Mixture,10g,Monthly,Clean fallen fruits,Clay,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,8g,Bi-Weekly,Apply after irrigation,Clay,Both
+Fruit,Scab,Flowering,NPK Mixture,24g,Weekly,Clean fallen fruits,Loam,Dry season
+Fruit,Scab,Flowering,NPK Mixture,14g,Bi-Weekly,Ensure proper drainage,Loam,Rainy season
+Leaf,Scab,Flowering,NPK Mixture,13g,Weekly,Clean fallen fruits,Loam,Both
+Leaf,Scab,Flowering,NPK Mixture,14g,Bi-Weekly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Scab,Flowering,NPK Mixture,17g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,23g,Bi-Weekly,Avoid excess watering,Sandy,Both
+Fruit,Scab,Flowering,NPK Mixture,9g,Bi-Weekly,Avoid wetting leaves,Not sure,Dry season
+Fruit,Scab,Flowering,NPK Mixture,9g,Monthly,Apply after irrigation,Not sure,Rainy season
+Leaf,Scab,Flowering,NPK Mixture,18g,Bi-Weekly,Clean fallen fruits,Not sure,Both
+Leaf,Scab,Fruiting,NPK Mixture,8g,Bi-Weekly,Mix lightly into topsoil,Clay,Dry season
+Leaf,Scab,Fruiting,NPK Mixture,17g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Scab,Fruiting,NPK Mixture,19g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Leaf,Scab,Fruiting,NPK Mixture,14g,Bi-Weekly,Ensure proper drainage,Loam,Dry season
+Fruit,Scab,Fruiting,NPK Mixture,14g,Bi-Weekly,Ensure proper drainage,Loam,Rainy season
+Leaf,Scab,Fruiting,NPK Mixture,14g,Bi-Weekly,Mix lightly into topsoil,Loam,Both
+Leaf,Scab,Fruiting,NPK Mixture,22g,Bi-Weekly,Apply after irrigation,Sandy,Dry season
+Leaf,Scab,Fruiting,NPK Mixture,25g,Bi-Weekly,Apply after irrigation,Sandy,Rainy season
+Fruit,Scab,Fruiting,NPK Mixture,22g,Bi-Weekly,Apply after irrigation,Sandy,Both
+Leaf,Scab,Fruiting,NPK Mixture,23g,Bi-Weekly,Avoid wetting leaves,Not sure,Dry season
+Leaf,Scab,Fruiting,NPK Mixture,21g,Bi-Weekly,Avoid excess watering,Not sure,Rainy season
+Fruit,Scab,Fruiting,NPK Mixture,22g,Bi-Weekly,Ensure proper drainage,Not sure,Both
+Leaf,Anthracnose,Seedling,NPK Mixture,17g,Monthly,Avoid excess watering,Clay,Dry season
+Leaf,Anthracnose,Seedling,NPK Mixture,16g,Monthly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Anthracnose,Seedling,NPK Mixture,13g,Monthly,Avoid wetting leaves,Clay,Both
+Fruit,Anthracnose,Seedling,NPK Mixture,23g,Monthly,Mix lightly into topsoil,Loam,Dry season
+Leaf,Anthracnose,Seedling,NPK Mixture,22g,Monthly,Clean fallen fruits,Loam,Rainy season
+Leaf,Anthracnose,Seedling,NPK Mixture,17g,Monthly,Avoid wetting leaves,Loam,Both
+Leaf,Anthracnose,Seedling,NPK Mixture,13g,Monthly,Avoid excess watering,Sandy,Dry season
+Leaf,Anthracnose,Seedling,NPK Mixture,24g,Monthly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Anthracnose,Seedling,NPK Mixture,12g,Monthly,Ensure proper drainage,Sandy,Both
+Fruit,Anthracnose,Seedling,NPK Mixture,12g,Monthly,Apply after irrigation,Not sure,Dry season
+Leaf,Anthracnose,Seedling,NPK Mixture,11g,Monthly,Apply after irrigation,Not sure,Rainy season
+Fruit,Anthracnose,Seedling,NPK Mixture,23g,Monthly,Clean fallen fruits,Not sure,Both
+Fruit,Anthracnose,Vegetative,NPK Mixture,15g,Weekly,Clean fallen fruits,Clay,Dry season
+Leaf,Anthracnose,Vegetative,NPK Mixture,23g,Weekly,Ensure proper drainage,Clay,Rainy season
+Leaf,Anthracnose,Vegetative,NPK Mixture,19g,Monthly,Mix lightly into topsoil,Clay,Both
+Leaf,Anthracnose,Vegetative,NPK Mixture,18g,Monthly,Clean fallen fruits,Loam,Dry season
+Fruit,Anthracnose,Vegetative,NPK Mixture,9g,Weekly,Apply after irrigation,Loam,Rainy season
+Leaf,Anthracnose,Vegetative,NPK Mixture,17g,Monthly,Mix lightly into topsoil,Loam,Both
+Leaf,Anthracnose,Vegetative,NPK Mixture,16g,Weekly,Apply after irrigation,Sandy,Dry season
+Fruit,Anthracnose,Vegetative,NPK Mixture,17g,Monthly,Apply after irrigation,Sandy,Rainy season
+Fruit,Anthracnose,Vegetative,NPK Mixture,15g,Weekly,Apply after irrigation,Sandy,Both
+Fruit,Anthracnose,Vegetative,NPK Mixture,13g,Weekly,Ensure proper drainage,Not sure,Dry season
+Leaf,Anthracnose,Vegetative,NPK Mixture,15g,Monthly,Avoid excess watering,Not sure,Rainy season
+Leaf,Anthracnose,Vegetative,NPK Mixture,10g,Weekly,Avoid wetting leaves,Not sure,Both
+Fruit,Anthracnose,Flowering,NPK Mixture,25g,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Fruit,Anthracnose,Flowering,NPK Mixture,20g,Monthly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Anthracnose,Flowering,NPK Mixture,13g,Monthly,Apply after irrigation,Clay,Both
+Fruit,Anthracnose,Flowering,NPK Mixture,24g,Bi-Weekly,Clean fallen fruits,Loam,Dry season
+Fruit,Anthracnose,Flowering,NPK Mixture,14g,Monthly,Apply after irrigation,Loam,Rainy season
+Fruit,Anthracnose,Flowering,NPK Mixture,9g,Weekly,Ensure proper drainage,Loam,Both
+Fruit,Anthracnose,Flowering,NPK Mixture,15g,Monthly,Clean fallen fruits,Sandy,Dry season
+Leaf,Anthracnose,Flowering,NPK Mixture,20g,Monthly,Avoid excess watering,Sandy,Rainy season
+Fruit,Anthracnose,Flowering,NPK Mixture,10g,Weekly,Ensure proper drainage,Sandy,Both
+Leaf,Anthracnose,Flowering,NPK Mixture,12g,Weekly,Apply after irrigation,Not sure,Dry season
+Fruit,Anthracnose,Flowering,NPK Mixture,9g,Monthly,Clean fallen fruits,Not sure,Rainy season
+Fruit,Anthracnose,Flowering,NPK Mixture,21g,Monthly,Avoid excess watering,Not sure,Both
+Fruit,Anthracnose,Fruiting,NPK Mixture,23g,Bi-Weekly,Avoid excess watering,Clay,Dry season
+Fruit,Anthracnose,Fruiting,NPK Mixture,21g,Bi-Weekly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Anthracnose,Fruiting,NPK Mixture,23g,Bi-Weekly,Clean fallen fruits,Clay,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,14g,Bi-Weekly,Mix lightly into topsoil,Loam,Dry season
+Fruit,Anthracnose,Fruiting,NPK Mixture,9g,Bi-Weekly,Avoid excess watering,Loam,Rainy season
+Leaf,Anthracnose,Fruiting,NPK Mixture,12g,Bi-Weekly,Apply after irrigation,Loam,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,19g,Bi-Weekly,Ensure proper drainage,Sandy,Dry season
+Fruit,Anthracnose,Fruiting,NPK Mixture,11g,Bi-Weekly,Ensure proper drainage,Sandy,Rainy season
+Leaf,Anthracnose,Fruiting,NPK Mixture,12g,Bi-Weekly,Ensure proper drainage,Sandy,Both
+Fruit,Anthracnose,Fruiting,NPK Mixture,15g,Bi-Weekly,Clean fallen fruits,Not sure,Dry season
+Leaf,Anthracnose,Fruiting,NPK Mixture,15g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Fruit,Anthracnose,Fruiting,NPK Mixture,9g,Bi-Weekly,Mix lightly into topsoil,Not sure,Both
+Fruit,Soft Rot,Seedling,Organic Compost,232g,Monthly,Mix lightly into topsoil,Clay,Dry season
+Leaf,Soft Rot,Seedling,Organic Compost,202g,Monthly,Ensure proper drainage,Clay,Rainy season
+Leaf,Soft Rot,Seedling,Organic Compost,251g,Monthly,Apply after irrigation,Clay,Both
+Leaf,Soft Rot,Seedling,Organic Compost,318g,Monthly,Ensure proper drainage,Loam,Dry season
+Fruit,Soft Rot,Seedling,Organic Compost,186g,Monthly,Mix lightly into topsoil,Loam,Rainy season
+Fruit,Soft Rot,Seedling,Organic Compost,262g,Monthly,Mix lightly into topsoil,Loam,Both
+Fruit,Soft Rot,Seedling,Organic Compost,155g,Monthly,Clean fallen fruits,Sandy,Dry season
+Fruit,Soft Rot,Seedling,Organic Compost,242g,Monthly,Clean fallen fruits,Sandy,Rainy season
+Fruit,Soft Rot,Seedling,Organic Compost,201g,Monthly,Avoid excess watering,Sandy,Both
+Fruit,Soft Rot,Seedling,Organic Compost,202g,Monthly,Avoid excess watering,Not sure,Dry season
+Leaf,Soft Rot,Seedling,Organic Compost,313g,Monthly,Clean fallen fruits,Not sure,Rainy season
+Leaf,Soft Rot,Seedling,Organic Compost,340g,Monthly,Apply after irrigation,Not sure,Both
+Fruit,Soft Rot,Vegetative,Organic Compost,208g,Bi-Weekly,Avoid wetting leaves,Clay,Dry season
+Leaf,Soft Rot,Vegetative,Organic Compost,202g,Monthly,Clean fallen fruits,Clay,Rainy season
+Leaf,Soft Rot,Vegetative,Organic Compost,265g,Weekly,Clean fallen fruits,Clay,Both
+Leaf,Soft Rot,Vegetative,Organic Compost,277g,Bi-Weekly,Ensure proper drainage,Loam,Dry season
+Leaf,Soft Rot,Vegetative,Organic Compost,163g,Monthly,Ensure proper drainage,Loam,Rainy season
+Fruit,Soft Rot,Vegetative,Organic Compost,214g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Leaf,Soft Rot,Vegetative,Organic Compost,220g,Bi-Weekly,Apply after irrigation,Sandy,Dry season
+Fruit,Soft Rot,Vegetative,Organic Compost,179g,Bi-Weekly,Clean fallen fruits,Sandy,Rainy season
+Leaf,Soft Rot,Vegetative,Organic Compost,309g,Bi-Weekly,Avoid excess watering,Sandy,Both
+Leaf,Soft Rot,Vegetative,Organic Compost,268g,Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Soft Rot,Vegetative,Organic Compost,213g,Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Soft Rot,Vegetative,Organic Compost,208g,Monthly,Avoid excess watering,Not sure,Both
+Leaf,Soft Rot,Flowering,Organic Compost,253g,Weekly,Ensure proper drainage,Clay,Dry season
+Leaf,Soft Rot,Flowering,Organic Compost,260g,Weekly,Avoid excess watering,Clay,Rainy season
+Fruit,Soft Rot,Flowering,Organic Compost,193g,Bi-Weekly,Clean fallen fruits,Clay,Both
+Fruit,Soft Rot,Flowering,Organic Compost,197g,Monthly,Avoid wetting leaves,Loam,Dry season
+Fruit,Soft Rot,Flowering,Organic Compost,251g,Bi-Weekly,Mix lightly into topsoil,Loam,Rainy season
+Fruit,Soft Rot,Flowering,Organic Compost,236g,Weekly,Apply after irrigation,Loam,Both
+Fruit,Soft Rot,Flowering,Organic Compost,152g,Monthly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Soft Rot,Flowering,Organic Compost,252g,Monthly,Avoid excess watering,Sandy,Rainy season
+Fruit,Soft Rot,Flowering,Organic Compost,255g,Bi-Weekly,Avoid wetting leaves,Sandy,Both
+Fruit,Soft Rot,Flowering,Organic Compost,220g,Monthly,Apply after irrigation,Not sure,Dry season
+Fruit,Soft Rot,Flowering,Organic Compost,204g,Monthly,Apply after irrigation,Not sure,Rainy season
+Fruit,Soft Rot,Flowering,Organic Compost,253g,Weekly,Apply after irrigation,Not sure,Both
+Leaf,Soft Rot,Fruiting,Organic Compost,181g,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Fruit,Soft Rot,Fruiting,Organic Compost,213g,Bi-Weekly,Apply after irrigation,Clay,Rainy season
+Leaf,Soft Rot,Fruiting,Organic Compost,308g,Bi-Weekly,Mix lightly into topsoil,Clay,Both
+Fruit,Soft Rot,Fruiting,Organic Compost,319g,Bi-Weekly,Mix lightly into topsoil,Loam,Dry season
+Fruit,Soft Rot,Fruiting,Organic Compost,176g,Bi-Weekly,Avoid excess watering,Loam,Rainy season
+Leaf,Soft Rot,Fruiting,Organic Compost,213g,Bi-Weekly,Avoid wetting leaves,Loam,Both
+Leaf,Soft Rot,Fruiting,Organic Compost,315g,Bi-Weekly,Ensure proper drainage,Sandy,Dry season
+Leaf,Soft Rot,Fruiting,Organic Compost,314g,Bi-Weekly,Clean fallen fruits,Sandy,Rainy season
+Fruit,Soft Rot,Fruiting,Organic Compost,163g,Bi-Weekly,Ensure proper drainage,Sandy,Both
+Leaf,Soft Rot,Fruiting,Organic Compost,296g,Bi-Weekly,Avoid excess watering,Not sure,Dry season
+Leaf,Soft Rot,Fruiting,Organic Compost,208g,Bi-Weekly,Avoid wetting leaves,Not sure,Rainy season
+Fruit,Soft Rot,Fruiting,Organic Compost,228g,Bi-Weekly,Ensure proper drainage,Not sure,Both
+Leaf,Styler End Rot,Seedling,Organic Compost,160g,Monthly,Avoid excess watering,Clay,Dry season
+Fruit,Styler End Rot,Seedling,Organic Compost,278g,Monthly,Mix lightly into topsoil,Clay,Rainy season
+Fruit,Styler End Rot,Seedling,Organic Compost,256g,Monthly,Clean fallen fruits,Clay,Both
+Leaf,Styler End Rot,Seedling,Organic Compost,205g,Monthly,Avoid excess watering,Loam,Dry season
+Fruit,Styler End Rot,Seedling,Organic Compost,311g,Monthly,Avoid wetting leaves,Loam,Rainy season
+Leaf,Styler End Rot,Seedling,Organic Compost,194g,Monthly,Avoid excess watering,Loam,Both
+Fruit,Styler End Rot,Seedling,Organic Compost,238g,Monthly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Styler End Rot,Seedling,Organic Compost,217g,Monthly,Clean fallen fruits,Sandy,Rainy season
+Leaf,Styler End Rot,Seedling,Organic Compost,277g,Monthly,Clean fallen fruits,Sandy,Both
+Leaf,Styler End Rot,Seedling,Organic Compost,298g,Monthly,Apply after irrigation,Not sure,Dry season
+Leaf,Styler End Rot,Seedling,Organic Compost,336g,Monthly,Avoid excess watering,Not sure,Rainy season
+Leaf,Styler End Rot,Seedling,Organic Compost,242g,Monthly,Avoid wetting leaves,Not sure,Both
+Fruit,Styler End Rot,Vegetative,Bio Fertilizer,22ml,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Fruit,Styler End Rot,Vegetative,NPK Mixture,17g,Bi-Weekly,Avoid excess watering,Clay,Rainy season
+Leaf,Styler End Rot,Vegetative,Organic Compost,241g,Weekly,Mix lightly into topsoil,Loam,Dry season
+Fruit,Styler End Rot,Vegetative,Organic Compost,290g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Fruit,Styler End Rot,Vegetative,Bio Fertilizer,29ml,Monthly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Styler End Rot,Vegetative,NPK Mixture,9g,Weekly,Mix lightly into topsoil,Sandy,Rainy season
+Fruit,Styler End Rot,Vegetative,Bio Fertilizer,37ml,Monthly,Apply after irrigation,Sandy,Both
+Fruit,Styler End Rot,Vegetative,TSP,21g,Weekly,Mix lightly into topsoil,Not sure,Dry season
+Leaf,Styler End Rot,Vegetative,MOP,20g,Monthly,Ensure proper drainage,Not sure,Rainy season
+Leaf,Styler End Rot,Vegetative,Farmyard Manure,154g,Bi-Weekly,Avoid excess watering,Not sure,Both
+Leaf,Styler End Rot,Flowering,TSP,21g,Weekly,Avoid wetting leaves,Clay,Dry season
+Leaf,Styler End Rot,Flowering,TSP,20g,Bi-Weekly,Clean fallen fruits,Clay,Rainy season
+Leaf,Styler End Rot,Flowering,TSP,10g,Weekly,Mix lightly into topsoil,Clay,Both
+Fruit,Styler End Rot,Flowering,TSP,22g,Monthly,Clean fallen fruits,Loam,Dry season
+Leaf,Styler End Rot,Flowering,TSP,20g,Weekly,Avoid wetting leaves,Loam,Rainy season
+Fruit,Styler End Rot,Flowering,TSP,21g,Monthly,Clean fallen fruits,Loam,Both
+Leaf,Styler End Rot,Flowering,TSP,20g,Bi-Weekly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Styler End Rot,Flowering,TSP,18g,Bi-Weekly,Avoid excess watering,Sandy,Rainy season
+Leaf,Styler End Rot,Flowering,TSP,22g,Weekly,Avoid wetting leaves,Sandy,Both
+Leaf,Styler End Rot,Flowering,TSP,13g,Weekly,Mix lightly into topsoil,Not sure,Dry season
+Fruit,Styler End Rot,Flowering,TSP,12g,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Styler End Rot,Flowering,TSP,23g,Monthly,Ensure proper drainage,Not sure,Both
+Leaf,Styler End Rot,Fruiting,MOP,25g,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Fruit,Styler End Rot,Fruiting,MOP,10g,Bi-Weekly,Apply after irrigation,Clay,Rainy season
+Leaf,Styler End Rot,Fruiting,MOP,19g,Bi-Weekly,Avoid excess watering,Clay,Both
+Leaf,Styler End Rot,Fruiting,MOP,25g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Fruit,Styler End Rot,Fruiting,MOP,9g,Bi-Weekly,Ensure proper drainage,Loam,Rainy season
+Leaf,Styler End Rot,Fruiting,MOP,16g,Bi-Weekly,Apply after irrigation,Loam,Both
+Leaf,Styler End Rot,Fruiting,MOP,14g,Bi-Weekly,Apply after irrigation,Sandy,Dry season
+Fruit,Styler End Rot,Fruiting,MOP,20g,Bi-Weekly,Avoid excess watering,Sandy,Rainy season
+Leaf,Styler End Rot,Fruiting,MOP,24g,Bi-Weekly,Avoid excess watering,Sandy,Both
+Leaf,Styler End Rot,Fruiting,MOP,24g,Bi-Weekly,Clean fallen fruits,Not sure,Dry season
+Leaf,Styler End Rot,Fruiting,MOP,10g,Bi-Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Styler End Rot,Fruiting,MOP,24g,Bi-Weekly,Avoid excess watering,Not sure,Both
+Fruit,Rust,Seedling,NPK Mixture,24g,Monthly,Clean fallen fruits,Clay,Dry season
+Fruit,Rust,Seedling,NPK Mixture,14g,Monthly,Apply after irrigation,Clay,Rainy season
+Leaf,Rust,Seedling,NPK Mixture,14g,Monthly,Avoid wetting leaves,Clay,Both
+Leaf,Rust,Seedling,NPK Mixture,13g,Monthly,Avoid wetting leaves,Loam,Dry season
+Fruit,Rust,Seedling,NPK Mixture,17g,Monthly,Mix lightly into topsoil,Loam,Rainy season
+Fruit,Rust,Seedling,NPK Mixture,10g,Monthly,Avoid excess watering,Loam,Both
+Leaf,Rust,Seedling,NPK Mixture,21g,Monthly,Avoid excess watering,Sandy,Dry season
+Fruit,Rust,Seedling,NPK Mixture,22g,Monthly,Clean fallen fruits,Sandy,Rainy season
+Fruit,Rust,Seedling,NPK Mixture,19g,Monthly,Mix lightly into topsoil,Sandy,Both
+Fruit,Rust,Seedling,NPK Mixture,12g,Monthly,Mix lightly into topsoil,Not sure,Dry season
+Leaf,Rust,Seedling,NPK Mixture,11g,Monthly,Clean fallen fruits,Not sure,Rainy season
+Fruit,Rust,Seedling,NPK Mixture,12g,Monthly,Apply after irrigation,Not sure,Both
+Leaf,Rust,Vegetative,NPK Mixture,23g,Monthly,Apply after irrigation,Clay,Dry season
+Leaf,Rust,Vegetative,NPK Mixture,20g,Weekly,Apply after irrigation,Clay,Rainy season
+Leaf,Rust,Vegetative,NPK Mixture,12g,Monthly,Avoid excess watering,Clay,Both
+Leaf,Rust,Vegetative,NPK Mixture,12g,Monthly,Avoid excess watering,Loam,Dry season
+Fruit,Rust,Vegetative,NPK Mixture,25g,Bi-Weekly,Apply after irrigation,Loam,Rainy season
+Fruit,Rust,Vegetative,NPK Mixture,24g,Weekly,Apply after irrigation,Loam,Both
+Fruit,Rust,Vegetative,NPK Mixture,22g,Weekly,Clean fallen fruits,Sandy,Dry season
+Fruit,Rust,Vegetative,NPK Mixture,18g,Weekly,Avoid excess watering,Sandy,Rainy season
+Fruit,Rust,Vegetative,NPK Mixture,25g,Bi-Weekly,Apply after irrigation,Sandy,Both
+Leaf,Rust,Vegetative,NPK Mixture,17g,Weekly,Apply after irrigation,Not sure,Dry season
+Fruit,Rust,Vegetative,NPK Mixture,15g,Monthly,Apply after irrigation,Not sure,Rainy season
+Leaf,Rust,Vegetative,NPK Mixture,11g,Weekly,Mix lightly into topsoil,Not sure,Both
+Leaf,Rust,Flowering,NPK Mixture,10g,Weekly,Apply after irrigation,Clay,Dry season
+Leaf,Rust,Flowering,NPK Mixture,8g,Monthly,Avoid excess watering,Clay,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,22g,Weekly,Clean fallen fruits,Clay,Both
+Fruit,Rust,Flowering,NPK Mixture,16g,Weekly,Avoid wetting leaves,Loam,Dry season
+Fruit,Rust,Flowering,NPK Mixture,21g,Monthly,Avoid wetting leaves,Loam,Rainy season
+Fruit,Rust,Flowering,NPK Mixture,14g,Bi-Weekly,Mix lightly into topsoil,Loam,Both
+Leaf,Rust,Flowering,NPK Mixture,25g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Leaf,Rust,Flowering,NPK Mixture,9g,Weekly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,10g,Monthly,Ensure proper drainage,Sandy,Both
+Leaf,Rust,Flowering,NPK Mixture,20g,Bi-Weekly,Avoid excess watering,Not sure,Dry season
+Leaf,Rust,Flowering,NPK Mixture,11g,Weekly,Apply after irrigation,Not sure,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,18g,Weekly,Mix lightly into topsoil,Not sure,Both
+Fruit,Rust,Fruiting,NPK Mixture,25g,Bi-Weekly,Mix lightly into topsoil,Clay,Dry season
+Fruit,Rust,Fruiting,NPK Mixture,18g,Bi-Weekly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Rust,Fruiting,NPK Mixture,21g,Bi-Weekly,Apply after irrigation,Clay,Both
+Leaf,Rust,Fruiting,NPK Mixture,18g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Fruit,Rust,Fruiting,NPK Mixture,10g,Bi-Weekly,Avoid excess watering,Loam,Rainy season
+Fruit,Rust,Fruiting,NPK Mixture,10g,Bi-Weekly,Mix lightly into topsoil,Loam,Both
+Fruit,Rust,Fruiting,NPK Mixture,17g,Bi-Weekly,Clean fallen fruits,Sandy,Dry season
+Fruit,Rust,Fruiting,NPK Mixture,20g,Bi-Weekly,Avoid excess watering,Sandy,Rainy season
+Fruit,Rust,Fruiting,NPK Mixture,20g,Bi-Weekly,Ensure proper drainage,Sandy,Both
+Fruit,Rust,Fruiting,NPK Mixture,8g,Bi-Weekly,Mix lightly into topsoil,Not sure,Dry season
+Leaf,Rust,Fruiting,NPK Mixture,14g,Bi-Weekly,Clean fallen fruits,Not sure,Rainy season
+Leaf,Rust,Fruiting,NPK Mixture,19g,Bi-Weekly,Ensure proper drainage,Not sure,Both
+Fruit,Algal leaf spot,Seedling,NPK Mixture,20g,Monthly,Avoid wetting leaves,Clay,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,19g,Monthly,Avoid wetting leaves,Clay,Rainy season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,22g,Monthly,Avoid wetting leaves,Clay,Both
+Leaf,Algal leaf spot,Seedling,NPK Mixture,17g,Monthly,Avoid wetting leaves,Loam,Dry season
+Leaf,Algal leaf spot,Seedling,NPK Mixture,22g,Monthly,Ensure proper drainage,Loam,Rainy season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,8g,Monthly,Apply after irrigation,Loam,Both
+Leaf,Algal leaf spot,Seedling,NPK Mixture,17g,Monthly,Ensure proper drainage,Sandy,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,25g,Monthly,Avoid excess watering,Sandy,Rainy season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,21g,Monthly,Avoid wetting leaves,Sandy,Both
+Fruit,Algal leaf spot,Seedling,NPK Mixture,21g,Monthly,Clean fallen fruits,Not sure,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,11g,Monthly,Ensure proper drainage,Not sure,Rainy season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,14g,Monthly,Apply after irrigation,Not sure,Both
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,13g,Monthly,Apply after irrigation,Clay,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,9g,Bi-Weekly,Avoid excess watering,Clay,Rainy season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,14g,Monthly,Avoid wetting leaves,Clay,Both
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,12g,Weekly,Apply after irrigation,Loam,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,22g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,12g,Weekly,Apply after irrigation,Loam,Both
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,23g,Weekly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,24g,Weekly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,11g,Monthly,Mix lightly into topsoil,Sandy,Both
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,15g,Weekly,Ensure proper drainage,Not sure,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,23g,Monthly,Apply after irrigation,Not sure,Rainy season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,23g,Monthly,Clean fallen fruits,Not sure,Both
+Fruit,Algal leaf spot,Flowering,NPK Mixture,23g,Weekly,Avoid excess watering,Clay,Dry season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,24g,Monthly,Avoid wetting leaves,Clay,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,11g,Weekly,Avoid wetting leaves,Clay,Both
+Fruit,Algal leaf spot,Flowering,NPK Mixture,16g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,8g,Weekly,Apply after irrigation,Loam,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,12g,Weekly,Clean fallen fruits,Loam,Both
+Fruit,Algal leaf spot,Flowering,NPK Mixture,10g,Weekly,Ensure proper drainage,Sandy,Dry season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,10g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Algal leaf spot,Flowering,NPK Mixture,11g,Weekly,Mix lightly into topsoil,Sandy,Both
+Fruit,Algal leaf spot,Flowering,NPK Mixture,8g,Bi-Weekly,Apply after irrigation,Not sure,Dry season
+Leaf,Algal leaf spot,Flowering,NPK Mixture,11g,Monthly,Avoid excess watering,Not sure,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,11g,Weekly,Apply after irrigation,Not sure,Both
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,18g,Bi-Weekly,Mix lightly into topsoil,Clay,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,16g,Bi-Weekly,Apply after irrigation,Clay,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,16g,Bi-Weekly,Avoid excess watering,Clay,Both
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,10g,Bi-Weekly,Avoid excess watering,Loam,Dry season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,13g,Bi-Weekly,Apply after irrigation,Loam,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,20g,Bi-Weekly,Mix lightly into topsoil,Loam,Both
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,23g,Bi-Weekly,Clean fallen fruits,Sandy,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,8g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,12g,Bi-Weekly,Avoid excess watering,Sandy,Both
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,24g,Bi-Weekly,Clean fallen fruits,Not sure,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,24g,Bi-Weekly,Clean fallen fruits,Not sure,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,24g,Bi-Weekly,Avoid wetting leaves,Not sure,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,38ml,Monthly,Avoid wetting leaves,Clay,Dry season
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,28ml,Monthly,Apply after irrigation,Clay,Rainy season
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,27ml,Monthly,Clean fallen fruits,Clay,Both
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,26ml,Monthly,Avoid wetting leaves,Loam,Dry season
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,36ml,Monthly,Avoid excess watering,Loam,Rainy season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,22ml,Monthly,Ensure proper drainage,Loam,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,31ml,Monthly,Clean fallen fruits,Sandy,Dry season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,32ml,Monthly,Mix lightly into topsoil,Sandy,Rainy season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,25ml,Monthly,Mix lightly into topsoil,Sandy,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,29ml,Monthly,Ensure proper drainage,Not sure,Dry season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,31ml,Monthly,Ensure proper drainage,Not sure,Rainy season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,25ml,Monthly,Clean fallen fruits,Not sure,Both
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,37ml,Bi-Weekly,Avoid excess watering,Clay,Dry season
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,29ml,Weekly,Ensure proper drainage,Clay,Rainy season
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,22ml,Monthly,Mix lightly into topsoil,Clay,Both
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,38ml,Weekly,Clean fallen fruits,Loam,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,23ml,Bi-Weekly,Apply after irrigation,Loam,Rainy season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,34ml,Monthly,Ensure proper drainage,Loam,Both
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,26ml,Monthly,Ensure proper drainage,Sandy,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,28ml,Monthly,Avoid excess watering,Sandy,Rainy season
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,36ml,Monthly,Avoid excess watering,Sandy,Both
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,25ml,Weekly,Avoid wetting leaves,Not sure,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,24ml,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,23ml,Weekly,Clean fallen fruits,Not sure,Both
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,32ml,Bi-Weekly,Mix lightly into topsoil,Clay,Dry season
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,29ml,Bi-Weekly,Avoid excess watering,Clay,Rainy season
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,26ml,Monthly,Mix lightly into topsoil,Clay,Both
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,20ml,Weekly,Mix lightly into topsoil,Loam,Dry season
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,40ml,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,23ml,Monthly,Mix lightly into topsoil,Loam,Both
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,22ml,Monthly,Clean fallen fruits,Sandy,Dry season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,39ml,Monthly,Apply after irrigation,Sandy,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,24ml,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,37ml,Bi-Weekly,Mix lightly into topsoil,Not sure,Dry season
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,38ml,Monthly,Avoid wetting leaves,Not sure,Rainy season
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,23ml,Weekly,Avoid wetting leaves,Not sure,Both
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,22ml,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,35ml,Bi-Weekly,Ensure proper drainage,Clay,Rainy season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,20ml,Bi-Weekly,Avoid wetting leaves,Clay,Both
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,23ml,Bi-Weekly,Clean fallen fruits,Loam,Dry season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,29ml,Bi-Weekly,Avoid wetting leaves,Loam,Rainy season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,36ml,Bi-Weekly,Avoid excess watering,Loam,Both
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,25ml,Bi-Weekly,Ensure proper drainage,Sandy,Dry season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,25ml,Bi-Weekly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,35ml,Bi-Weekly,Avoid excess watering,Sandy,Both
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,36ml,Bi-Weekly,Avoid excess watering,Not sure,Dry season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,23ml,Bi-Weekly,Clean fallen fruits,Not sure,Rainy season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,26ml,Bi-Weekly,Avoid excess watering,Not sure,Both
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,38ml,Weekly,Ensure proper drainage,Loam,Both
+Leaf,Algal leaf spot,Seedling,NPK Mixture,23g,Monthly,Avoid excess watering,Not sure,Rainy season
+Fruit,Styler End Rot,Vegetative,Bio Fertilizer,25ml,Monthly,Apply after irrigation,Loam,Both
+Leaf,Soft Rot,Flowering,Organic Compost,150g,Monthly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Rust,Vegetative,NPK Mixture,22g,Bi-Weekly,Avoid excess watering,Loam,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,32ml,Weekly,Apply after irrigation,Loam,Both
+Fruit,Healthy,Flowering,TSP,25g,Bi-Weekly,Avoid wetting leaves,Loam,Dry season
+Fruit,Rust,Vegetative,NPK Mixture,10g,Monthly,Ensure proper drainage,Not sure,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,24g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,31ml,Weekly,Clean fallen fruits,Loam,Dry season
+Fruit,Anthracnose,Seedling,NPK Mixture,12g,Monthly,Ensure proper drainage,Clay,Dry season
+Leaf,Soft Rot,Fruiting,Organic Compost,157g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Leaf,Soft Rot,Vegetative,Organic Compost,325g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Leaf,Styler End Rot,Seedling,Organic Compost,243g,Monthly,Ensure proper drainage,Clay,Both
+Fruit,Soft Rot,Seedling,Organic Compost,212g,Monthly,Avoid wetting leaves,Loam,Dry season
+Fruit,Scab,Seedling,NPK Mixture,23g,Monthly,Mix lightly into topsoil,Clay,Dry season
+Fruit,Styler End Rot,Fruiting,MOP,18g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Fruit,Styler End Rot,Seedling,Organic Compost,301g,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,10g,Monthly,Avoid excess watering,Loam,Rainy season
+Leaf,Soft Rot,Fruiting,Organic Compost,152g,Bi-Weekly,Avoid excess watering,Not sure,Dry season
+Fruit,Healthy,Flowering,TSP,24g,Weekly,Mix lightly into topsoil,Clay,Dry season
+Fruit,Styler End Rot,Vegetative,TSP,18g,Weekly,Clean fallen fruits,Clay,Both
+Fruit,Healthy,Fruiting,MOP,8g,Bi-Weekly,Mix lightly into topsoil,Not sure,Both
+Fruit,Algal leaf spot,Seedling,NPK Mixture,22g,Monthly,Clean fallen fruits,Not sure,Both
+Fruit,Scab,Vegetative,NPK Mixture,21g,Bi-Weekly,Avoid wetting leaves,Not sure,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,17g,Bi-Weekly,Avoid excess watering,Not sure,Both
+Fruit,Anthracnose,Seedling,NPK Mixture,25g,Monthly,Avoid excess watering,Loam,Rainy season
+Leaf,Anthracnose,Fruiting,NPK Mixture,14g,Bi-Weekly,Avoid excess watering,Sandy,Both
+Leaf,Algal leaf spot,Flowering,NPK Mixture,17g,Weekly,Ensure proper drainage,Clay,Both
+Leaf,Rust,Vegetative,NPK Mixture,21g,Weekly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Styler End Rot,Vegetative,Farmyard Manure,294g,Weekly,Apply after irrigation,Sandy,Both
+Leaf,Rust,Fruiting,NPK Mixture,12g,Bi-Weekly,Avoid wetting leaves,Not sure,Dry season
+Leaf,Rust,Flowering,NPK Mixture,24g,Bi-Weekly,Avoid excess watering,Sandy,Both
+Fruit,Anthracnose,Flowering,NPK Mixture,14g,Bi-Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Soft Rot,Flowering,Organic Compost,193g,Weekly,Avoid excess watering,Loam,Rainy season
+Leaf,Rust,Fruiting,NPK Mixture,19g,Bi-Weekly,Avoid wetting leaves,Loam,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,23g,Bi-Weekly,Mix lightly into topsoil,Sandy,Both
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,23g,Monthly,Mix lightly into topsoil,Not sure,Both
+Leaf,Anthracnose,Flowering,NPK Mixture,19g,Monthly,Avoid excess watering,Not sure,Dry season
+Leaf,Rust,Vegetative,NPK Mixture,16g,Bi-Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,19g,Bi-Weekly,Avoid excess watering,Sandy,Rainy season
+Fruit,Healthy,Flowering,TSP,15g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Leaf,Soft Rot,Vegetative,Organic Compost,187g,Monthly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Soft Rot,Seedling,Organic Compost,254g,Monthly,Avoid excess watering,Not sure,Dry season
+Leaf,Rust,Flowering,NPK Mixture,24g,Monthly,Ensure proper drainage,Not sure,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,32ml,Weekly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Rust,Seedling,NPK Mixture,22g,Monthly,Ensure proper drainage,Sandy,Dry season
+Fruit,Styler End Rot,Flowering,TSP,12g,Weekly,Mix lightly into topsoil,Sandy,Both
+Leaf,Rust,Flowering,NPK Mixture,22g,Monthly,Apply after irrigation,Clay,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,8g,Bi-Weekly,Apply after irrigation,Clay,Both
+Fruit,Anthracnose,Seedling,NPK Mixture,18g,Monthly,Ensure proper drainage,Sandy,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,24g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Fruit,Soft Rot,Vegetative,Organic Compost,274g,Bi-Weekly,Mix lightly into topsoil,Loam,Rainy season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,27ml,Bi-Weekly,Clean fallen fruits,Clay,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,25g,Bi-Weekly,Clean fallen fruits,Clay,Rainy season
+Fruit,Styler End Rot,Fruiting,MOP,15g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Anthracnose,Flowering,NPK Mixture,13g,Weekly,Apply after irrigation,Not sure,Dry season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,34ml,Bi-Weekly,Avoid wetting leaves,Not sure,Both
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,32ml,Bi-Weekly,Apply after irrigation,Sandy,Rainy season
+Leaf,Scab,Fruiting,NPK Mixture,21g,Bi-Weekly,Avoid excess watering,Not sure,Rainy season
+Leaf,Rust,Seedling,NPK Mixture,10g,Monthly,Apply after irrigation,Loam,Dry season
+Leaf,Soft Rot,Flowering,Organic Compost,274g,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,24g,Monthly,Apply after irrigation,Loam,Rainy season
+Fruit,Scab,Vegetative,NPK Mixture,22g,Monthly,Mix lightly into topsoil,Clay,Both
+Fruit,Scab,Seedling,NPK Mixture,13g,Monthly,Apply after irrigation,Clay,Dry season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,25g,Bi-Weekly,Avoid excess watering,Loam,Rainy season
+Fruit,Soft Rot,Fruiting,Organic Compost,286g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,10g,Bi-Weekly,Avoid excess watering,Not sure,Rainy season
+Fruit,Rust,Fruiting,NPK Mixture,8g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,25g,Weekly,Avoid excess watering,Loam,Rainy season
+Fruit,Scab,Fruiting,NPK Mixture,10g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Rust,Seedling,NPK Mixture,23g,Monthly,Apply after irrigation,Clay,Rainy season
+Leaf,Healthy,Fruiting,MOP,14g,Bi-Weekly,Clean fallen fruits,Clay,Both
+Leaf,Healthy,Flowering,TSP,13g,Weekly,Avoid excess watering,Not sure,Dry season
+Leaf,Scab,Seedling,NPK Mixture,23g,Monthly,Avoid excess watering,Loam,Dry season
+Leaf,Healthy,Vegetative,MOP,14g,Bi-Weekly,Clean fallen fruits,Loam,Both
+Fruit,Algal leaf spot,Seedling,NPK Mixture,14g,Monthly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Scab,Vegetative,NPK Mixture,12g,Bi-Weekly,Clean fallen fruits,Not sure,Both
+Fruit,Soft Rot,Fruiting,Organic Compost,246g,Bi-Weekly,Avoid wetting leaves,Loam,Rainy season
+Leaf,Algal leaf spot,Flowering,NPK Mixture,21g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Styler End Rot,Flowering,TSP,21g,Weekly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Healthy,Flowering,TSP,16g,Bi-Weekly,Clean fallen fruits,Not sure,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,8g,Monthly,Avoid wetting leaves,Not sure,Dry season
+Fruit,Rust,Vegetative,NPK Mixture,22g,Bi-Weekly,Avoid wetting leaves,Loam,Both
+Fruit,Scab,Flowering,NPK Mixture,10g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Anthracnose,Seedling,NPK Mixture,18g,Monthly,Mix lightly into topsoil,Not sure,Dry season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,25ml,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Rust,Vegetative,NPK Mixture,8g,Bi-Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Anthracnose,Flowering,NPK Mixture,12g,Weekly,Clean fallen fruits,Clay,Dry season
+Fruit,Healthy,Fruiting,MOP,21g,Bi-Weekly,Ensure proper drainage,Not sure,Both
+Leaf,Rust,Vegetative,NPK Mixture,25g,Monthly,Clean fallen fruits,Clay,Dry season
+Fruit,Rust,Fruiting,NPK Mixture,17g,Bi-Weekly,Mix lightly into topsoil,Sandy,Rainy season
+Leaf,Healthy,Flowering,TSP,12g,Weekly,Ensure proper drainage,Loam,Dry season
+Fruit,Healthy,Flowering,TSP,15g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,21ml,Monthly,Apply after irrigation,Loam,Both
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,29ml,Monthly,Clean fallen fruits,Loam,Both
+Leaf,Healthy,Vegetative,MOP,10g,Bi-Weekly,Avoid wetting leaves,Not sure,Rainy season
+Leaf,Soft Rot,Fruiting,Organic Compost,169g,Bi-Weekly,Apply after irrigation,Not sure,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,39ml,Monthly,Avoid wetting leaves,Loam,Dry season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,24ml,Monthly,Avoid excess watering,Loam,Both
+Leaf,Styler End Rot,Flowering,TSP,16g,Monthly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Rust,Flowering,NPK Mixture,21g,Bi-Weekly,Apply after irrigation,Clay,Both
+Fruit,Anthracnose,Seedling,NPK Mixture,10g,Monthly,Clean fallen fruits,Not sure,Dry season
+Leaf,Styler End Rot,Fruiting,MOP,19g,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Fruit,Styler End Rot,Seedling,Organic Compost,211g,Monthly,Apply after irrigation,Sandy,Rainy season
+Leaf,Scab,Vegetative,NPK Mixture,10g,Bi-Weekly,Apply after irrigation,Not sure,Dry season
+Leaf,Styler End Rot,Vegetative,TSP,8g,Weekly,Avoid excess watering,Not sure,Rainy season
+Fruit,Anthracnose,Vegetative,NPK Mixture,23g,Weekly,Clean fallen fruits,Sandy,Both
+Leaf,Anthracnose,Flowering,NPK Mixture,14g,Weekly,Avoid wetting leaves,Loam,Both
+Leaf,Scab,Vegetative,NPK Mixture,18g,Monthly,Apply after irrigation,Clay,Both
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,20g,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Fruit,Scab,Flowering,NPK Mixture,17g,Bi-Weekly,Apply after irrigation,Not sure,Dry season
+Leaf,Rust,Seedling,NPK Mixture,25g,Monthly,Mix lightly into topsoil,Clay,Both
+Fruit,Rust,Vegetative,NPK Mixture,13g,Bi-Weekly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,21g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,12g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Leaf,Anthracnose,Vegetative,NPK Mixture,13g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Leaf,Anthracnose,Vegetative,NPK Mixture,21g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Fruit,Healthy,Fruiting,MOP,24g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Leaf,Scab,Vegetative,NPK Mixture,19g,Monthly,Apply after irrigation,Not sure,Rainy season
+Leaf,Anthracnose,Vegetative,NPK Mixture,8g,Weekly,Clean fallen fruits,Clay,Dry season
+Leaf,Styler End Rot,Seedling,Organic Compost,152g,Monthly,Mix lightly into topsoil,Clay,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,11g,Bi-Weekly,Clean fallen fruits,Not sure,Both
+Leaf,Soft Rot,Flowering,Organic Compost,202g,Monthly,Apply after irrigation,Not sure,Both
+Fruit,Scab,Fruiting,NPK Mixture,11g,Bi-Weekly,Ensure proper drainage,Not sure,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,22g,Bi-Weekly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Scab,Fruiting,NPK Mixture,9g,Bi-Weekly,Avoid excess watering,Not sure,Both
+Leaf,Rust,Vegetative,NPK Mixture,12g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,26ml,Bi-Weekly,Avoid excess watering,Loam,Both
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,33ml,Bi-Weekly,Mix lightly into topsoil,Clay,Dry season
+Leaf,Scab,Flowering,NPK Mixture,21g,Monthly,Avoid wetting leaves,Loam,Rainy season
+Fruit,Soft Rot,Fruiting,Organic Compost,289g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Fruit,Scab,Seedling,NPK Mixture,18g,Monthly,Apply after irrigation,Not sure,Dry season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,9g,Weekly,Avoid wetting leaves,Clay,Dry season
+Fruit,Soft Rot,Fruiting,Organic Compost,316g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,29ml,Weekly,Clean fallen fruits,Loam,Dry season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,11g,Weekly,Apply after irrigation,Loam,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,20g,Bi-Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Scab,Flowering,NPK Mixture,17g,Monthly,Mix lightly into topsoil,Sandy,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,23g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Soft Rot,Fruiting,Organic Compost,210g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Leaf,Scab,Vegetative,NPK Mixture,15g,Monthly,Mix lightly into topsoil,Sandy,Both
+Leaf,Scab,Seedling,NPK Mixture,21g,Monthly,Clean fallen fruits,Sandy,Rainy season
+Fruit,Healthy,Fruiting,MOP,14g,Bi-Weekly,Avoid wetting leaves,Not sure,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,26ml,Weekly,Clean fallen fruits,Clay,Rainy season
+Fruit,Healthy,Seedling,Organic Compost,320g,Monthly,Clean fallen fruits,Not sure,Both
+Leaf,Healthy,Seedling,Organic Compost,165g,Monthly,Clean fallen fruits,Not sure,Dry season
+Fruit,Healthy,Vegetative,Organic Compost,302g,Bi-Weekly,Mix lightly into topsoil,Sandy,Both
+Leaf,Rust,Seedling,NPK Mixture,23g,Monthly,Avoid excess watering,Not sure,Both
+Leaf,Healthy,Fruiting,MOP,18g,Bi-Weekly,Ensure proper drainage,Clay,Dry season
+Leaf,Rust,Seedling,NPK Mixture,20g,Monthly,Avoid wetting leaves,Not sure,Both
+Fruit,Algal leaf spot,Seedling,NPK Mixture,17g,Monthly,Apply after irrigation,Clay,Dry season
+Fruit,Rust,Seedling,NPK Mixture,13g,Monthly,Apply after irrigation,Loam,Rainy season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,32ml,Bi-Weekly,Ensure proper drainage,Clay,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,36ml,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,16g,Bi-Weekly,Mix lightly into topsoil,Loam,Both
+Fruit,Healthy,Flowering,TSP,23g,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,22g,Bi-Weekly,Clean fallen fruits,Clay,Rainy season
+Fruit,Styler End Rot,Fruiting,MOP,15g,Bi-Weekly,Avoid excess watering,Loam,Rainy season
+Fruit,Healthy,Fruiting,MOP,20g,Bi-Weekly,Avoid wetting leaves,Clay,Dry season
+Leaf,Rust,Seedling,NPK Mixture,10g,Monthly,Avoid wetting leaves,Clay,Both
+Fruit,Rust,Flowering,NPK Mixture,24g,Weekly,Apply after irrigation,Loam,Both
+Leaf,Healthy,Vegetative,MOP,24g,Bi-Weekly,Apply after irrigation,Not sure,Dry season
+Leaf,Healthy,Flowering,TSP,14g,Bi-Weekly,Apply after irrigation,Clay,Both
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,13g,Bi-Weekly,Mix lightly into topsoil,Loam,Rainy season
+Leaf,Algal leaf spot,Flowering,NPK Mixture,22g,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Fruit,Healthy,Seedling,Organic Compost,291g,Monthly,Avoid wetting leaves,Not sure,Both
+Leaf,Styler End Rot,Fruiting,MOP,11g,Bi-Weekly,Avoid excess watering,Not sure,Dry season
+Fruit,Scab,Vegetative,NPK Mixture,23g,Bi-Weekly,Ensure proper drainage,Not sure,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,10g,Monthly,Apply after irrigation,Clay,Both
+Leaf,Healthy,Flowering,TSP,20g,Weekly,Ensure proper drainage,Clay,Dry season
+Fruit,Rust,Vegetative,NPK Mixture,15g,Bi-Weekly,Mix lightly into topsoil,Sandy,Both
+Leaf,Rust,Fruiting,NPK Mixture,12g,Bi-Weekly,Mix lightly into topsoil,Not sure,Both
+Fruit,Rust,Vegetative,NPK Mixture,22g,Monthly,Ensure proper drainage,Not sure,Both
+Leaf,Soft Rot,Fruiting,Organic Compost,213g,Bi-Weekly,Ensure proper drainage,Loam,Rainy season
+Fruit,Healthy,Seedling,Organic Compost,326g,Monthly,Avoid excess watering,Not sure,Rainy season
+Fruit,Styler End Rot,Seedling,Organic Compost,167g,Monthly,Avoid wetting leaves,Not sure,Dry season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,21g,Bi-Weekly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,16g,Bi-Weekly,Ensure proper drainage,Clay,Rainy season
+Leaf,Healthy,Seedling,Organic Compost,313g,Monthly,Apply after irrigation,Not sure,Dry season
+Fruit,Scab,Seedling,NPK Mixture,8g,Monthly,Clean fallen fruits,Loam,Dry season
+Fruit,Scab,Flowering,NPK Mixture,20g,Weekly,Avoid wetting leaves,Clay,Dry season
+Leaf,Soft Rot,Vegetative,Organic Compost,192g,Weekly,Avoid wetting leaves,Clay,Dry season
+Fruit,Anthracnose,Fruiting,NPK Mixture,10g,Bi-Weekly,Mix lightly into topsoil,Sandy,Rainy season
+Fruit,Scab,Vegetative,NPK Mixture,9g,Bi-Weekly,Mix lightly into topsoil,Sandy,Dry season
+Leaf,Scab,Flowering,NPK Mixture,11g,Weekly,Apply after irrigation,Sandy,Both
+Fruit,Healthy,Fruiting,MOP,24g,Bi-Weekly,Ensure proper drainage,Sandy,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,8g,Bi-Weekly,Clean fallen fruits,Loam,Both
+Leaf,Scab,Vegetative,NPK Mixture,21g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,10g,Bi-Weekly,Apply after irrigation,Loam,Both
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,27ml,Weekly,Ensure proper drainage,Sandy,Dry season
+Fruit,Scab,Flowering,NPK Mixture,15g,Weekly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Scab,Fruiting,NPK Mixture,9g,Bi-Weekly,Ensure proper drainage,Sandy,Both
+Fruit,Styler End Rot,Flowering,TSP,20g,Monthly,Ensure proper drainage,Loam,Dry season
+Fruit,Anthracnose,Flowering,NPK Mixture,11g,Weekly,Mix lightly into topsoil,Not sure,Both
+Fruit,Styler End Rot,Flowering,TSP,14g,Weekly,Avoid excess watering,Not sure,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,9g,Weekly,Apply after irrigation,Loam,Both
+Fruit,Soft Rot,Seedling,Organic Compost,261g,Monthly,Ensure proper drainage,Sandy,Dry season
+Leaf,Rust,Fruiting,NPK Mixture,8g,Bi-Weekly,Avoid wetting leaves,Not sure,Dry season
+Leaf,Styler End Rot,Flowering,TSP,10g,Monthly,Avoid excess watering,Not sure,Both
+Leaf,Styler End Rot,Seedling,Organic Compost,340g,Monthly,Avoid wetting leaves,Sandy,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,25g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Fruit,Rust,Flowering,NPK Mixture,8g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Fruit,Styler End Rot,Flowering,TSP,23g,Weekly,Avoid excess watering,Not sure,Dry season
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,38ml,Weekly,Ensure proper drainage,Clay,Dry season
+Leaf,Soft Rot,Flowering,Organic Compost,288g,Bi-Weekly,Apply after irrigation,Not sure,Dry season
+Leaf,Rust,Flowering,NPK Mixture,12g,Monthly,Apply after irrigation,Loam,Dry season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,26ml,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Soft Rot,Flowering,Organic Compost,179g,Weekly,Avoid excess watering,Sandy,Both
+Fruit,Algal leaf spot,Flowering,NPK Mixture,14g,Weekly,Clean fallen fruits,Loam,Dry season
+Fruit,Scab,Fruiting,NPK Mixture,15g,Bi-Weekly,Avoid excess watering,Loam,Dry season
+Fruit,Soft Rot,Flowering,Organic Compost,338g,Weekly,Avoid excess watering,Sandy,Rainy season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,33ml,Bi-Weekly,Avoid wetting leaves,Clay,Dry season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,14g,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Fruit,Healthy,Fruiting,MOP,17g,Bi-Weekly,Apply after irrigation,Sandy,Rainy season
+Leaf,Scab,Flowering,NPK Mixture,9g,Monthly,Ensure proper drainage,Clay,Dry season
+Leaf,Rust,Flowering,NPK Mixture,11g,Monthly,Avoid excess watering,Clay,Both
+Leaf,Styler End Rot,Fruiting,MOP,20g,Bi-Weekly,Avoid wetting leaves,Sandy,Both
+Fruit,Anthracnose,Fruiting,NPK Mixture,16g,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,24ml,Monthly,Avoid excess watering,Clay,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,11g,Monthly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Soft Rot,Flowering,Organic Compost,249g,Bi-Weekly,Apply after irrigation,Sandy,Dry season
+Leaf,Rust,Vegetative,NPK Mixture,25g,Monthly,Clean fallen fruits,Clay,Both
+Leaf,Healthy,Vegetative,MOP,22g,Weekly,Avoid excess watering,Not sure,Rainy season
+Leaf,Styler End Rot,Fruiting,MOP,8g,Bi-Weekly,Ensure proper drainage,Loam,Dry season
+Leaf,Rust,Vegetative,NPK Mixture,25g,Weekly,Avoid wetting leaves,Clay,Rainy season
+Fruit,Soft Rot,Vegetative,Organic Compost,168g,Bi-Weekly,Mix lightly into topsoil,Loam,Dry season
+Leaf,Healthy,Fruiting,MOP,24g,Bi-Weekly,Avoid wetting leaves,Sandy,Dry season
+Leaf,Soft Rot,Seedling,Organic Compost,331g,Monthly,Avoid excess watering,Loam,Dry season
+Leaf,Healthy,Flowering,TSP,16g,Weekly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,24g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Fruit,Algal leaf spot,Flowering,NPK Mixture,25g,Weekly,Ensure proper drainage,Clay,Rainy season
+Fruit,Soft Rot,Vegetative,Organic Compost,192g,Weekly,Apply after irrigation,Not sure,Both
+Leaf,Soft Rot,Fruiting,Organic Compost,227g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Leaf,Healthy,Fruiting,MOP,24g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Rust,Seedling,NPK Mixture,15g,Monthly,Avoid excess watering,Sandy,Dry season
+Fruit,Scab,Fruiting,NPK Mixture,25g,Bi-Weekly,Avoid wetting leaves,Not sure,Rainy season
+Leaf,Scab,Flowering,NPK Mixture,16g,Monthly,Avoid wetting leaves,Loam,Dry season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,34ml,Monthly,Ensure proper drainage,Loam,Rainy season
+Leaf,Anthracnose,Fruiting,NPK Mixture,10g,Bi-Weekly,Avoid wetting leaves,Clay,Dry season
+Fruit,Soft Rot,Vegetative,Organic Compost,156g,Bi-Weekly,Mix lightly into topsoil,Loam,Both
+Fruit,Rust,Flowering,NPK Mixture,17g,Weekly,Clean fallen fruits,Sandy,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,20g,Weekly,Apply after irrigation,Clay,Rainy season
+Leaf,Scab,Fruiting,NPK Mixture,24g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,24g,Weekly,Avoid wetting leaves,Sandy,Dry season
+Leaf,Anthracnose,Fruiting,NPK Mixture,22g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Leaf,Scab,Fruiting,NPK Mixture,21g,Bi-Weekly,Clean fallen fruits,Loam,Dry season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,15g,Bi-Weekly,Mix lightly into topsoil,Sandy,Both
+Leaf,Healthy,Flowering,TSP,25g,Bi-Weekly,Avoid wetting leaves,Loam,Rainy season
+Leaf,Soft Rot,Vegetative,Organic Compost,238g,Bi-Weekly,Avoid excess watering,Loam,Dry season
+Leaf,Styler End Rot,Vegetative,NPK Mixture,14g,Weekly,Clean fallen fruits,Sandy,Dry season
+Fruit,Soft Rot,Vegetative,Organic Compost,219g,Monthly,Ensure proper drainage,Loam,Dry season
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,37ml,Monthly,Avoid wetting leaves,Clay,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,33ml,Weekly,Ensure proper drainage,Clay,Both
+Leaf,Scab,Fruiting,NPK Mixture,22g,Bi-Weekly,Clean fallen fruits,Loam,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,24ml,Monthly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Scab,Seedling,NPK Mixture,21g,Monthly,Mix lightly into topsoil,Sandy,Dry season
+Leaf,Scab,Seedling,NPK Mixture,14g,Monthly,Avoid excess watering,Sandy,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,11g,Bi-Weekly,Avoid excess watering,Not sure,Dry season
+Leaf,Anthracnose,Vegetative,NPK Mixture,16g,Monthly,Apply after irrigation,Not sure,Both
+Leaf,Algal leaf spot,Flowering,NPK Mixture,17g,Monthly,Avoid excess watering,Sandy,Dry season
+Leaf,Soft Rot,Flowering,Organic Compost,345g,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,27ml,Monthly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,16g,Weekly,Avoid wetting leaves,Sandy,Both
+Fruit,Soft Rot,Fruiting,Organic Compost,242g,Bi-Weekly,Avoid excess watering,Loam,Rainy season
+Leaf,Rust,Fruiting,NPK Mixture,19g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,36ml,Weekly,Apply after irrigation,Sandy,Both
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,18g,Bi-Weekly,Avoid excess watering,Clay,Rainy season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,39ml,Bi-Weekly,Mix lightly into topsoil,Sandy,Both
+Fruit,Soft Rot,Seedling,Organic Compost,250g,Monthly,Apply after irrigation,Loam,Dry season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,25g,Monthly,Avoid wetting leaves,Sandy,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,15g,Bi-Weekly,Avoid excess watering,Clay,Rainy season
+Fruit,Rust,Fruiting,NPK Mixture,24g,Bi-Weekly,Ensure proper drainage,Clay,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,37ml,Monthly,Apply after irrigation,Not sure,Dry season
+Leaf,Healthy,Vegetative,Urea,22g,Monthly,Avoid excess watering,Clay,Rainy season
+Fruit,Scab,Vegetative,NPK Mixture,11g,Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Leaf,Rust,Seedling,NPK Mixture,18g,Monthly,Ensure proper drainage,Not sure,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,11g,Monthly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Healthy,Seedling,Organic Compost,229g,Monthly,Clean fallen fruits,Not sure,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,17g,Monthly,Clean fallen fruits,Clay,Rainy season
+Leaf,Anthracnose,Flowering,NPK Mixture,12g,Weekly,Ensure proper drainage,Not sure,Rainy season
+Fruit,Anthracnose,Flowering,NPK Mixture,21g,Bi-Weekly,Apply after irrigation,Sandy,Both
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,22ml,Monthly,Apply after irrigation,Loam,Rainy season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,11g,Monthly,Apply after irrigation,Clay,Both
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,25ml,Bi-Weekly,Apply after irrigation,Sandy,Dry season
+Fruit,Healthy,Vegetative,Farmyard Manure,230g,Bi-Weekly,Mix lightly into topsoil,Loam,Rainy season
+Leaf,Soft Rot,Vegetative,Organic Compost,251g,Weekly,Ensure proper drainage,Loam,Both
+Leaf,Rust,Flowering,NPK Mixture,14g,Monthly,Avoid wetting leaves,Not sure,Both
+Fruit,Scab,Vegetative,NPK Mixture,12g,Monthly,Apply after irrigation,Loam,Rainy season
+Fruit,Healthy,Seedling,Organic Compost,234g,Monthly,Mix lightly into topsoil,Loam,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,8g,Monthly,Clean fallen fruits,Clay,Both
+Fruit,Rust,Vegetative,NPK Mixture,12g,Weekly,Mix lightly into topsoil,Not sure,Rainy season
+Fruit,Styler End Rot,Fruiting,MOP,14g,Bi-Weekly,Avoid wetting leaves,Loam,Rainy season
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,31ml,Monthly,Apply after irrigation,Clay,Both
+Leaf,Healthy,Seedling,Organic Compost,227g,Monthly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Soft Rot,Vegetative,Organic Compost,253g,Weekly,Apply after irrigation,Sandy,Both
+Fruit,Anthracnose,Fruiting,NPK Mixture,10g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Fruit,Soft Rot,Flowering,Organic Compost,252g,Weekly,Clean fallen fruits,Loam,Rainy season
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,22ml,Monthly,Apply after irrigation,Clay,Both
+Fruit,Scab,Fruiting,NPK Mixture,22g,Bi-Weekly,Apply after irrigation,Sandy,Both
+Fruit,Styler End Rot,Flowering,TSP,11g,Weekly,Mix lightly into topsoil,Sandy,Rainy season
+Leaf,Healthy,Flowering,TSP,17g,Monthly,Mix lightly into topsoil,Not sure,Both
+Leaf,Styler End Rot,Vegetative,TSP,25g,Monthly,Ensure proper drainage,Sandy,Dry season
+Leaf,Soft Rot,Fruiting,Organic Compost,221g,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Fruit,Anthracnose,Fruiting,NPK Mixture,9g,Bi-Weekly,Avoid excess watering,Not sure,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,8g,Bi-Weekly,Avoid wetting leaves,Clay,Dry season
+Leaf,Fruit fly damage,Seedling,Bio Fertilizer,23ml,Monthly,Clean fallen fruits,Not sure,Dry season
+Fruit,Soft Rot,Vegetative,Organic Compost,278g,Weekly,Apply after irrigation,Loam,Dry season
+Fruit,Styler End Rot,Vegetative,Farmyard Manure,238g,Bi-Weekly,Clean fallen fruits,Not sure,Rainy season
+Leaf,Rust,Flowering,NPK Mixture,16g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Fruit,Anthracnose,Fruiting,NPK Mixture,23g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Healthy,Fruiting,MOP,25g,Bi-Weekly,Clean fallen fruits,Clay,Rainy season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,35ml,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Fruit,Algal leaf spot,Seedling,NPK Mixture,22g,Monthly,Avoid excess watering,Sandy,Both
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,24g,Monthly,Apply after irrigation,Clay,Dry season
+Leaf,Healthy,Flowering,TSP,17g,Bi-Weekly,Ensure proper drainage,Loam,Dry season
+Leaf,Scab,Fruiting,NPK Mixture,16g,Bi-Weekly,Mix lightly into topsoil,Clay,Dry season
+Fruit,Soft Rot,Vegetative,Organic Compost,189g,Monthly,Clean fallen fruits,Clay,Both
+Leaf,Styler End Rot,Seedling,Organic Compost,154g,Monthly,Clean fallen fruits,Loam,Rainy season
+Leaf,Rust,Seedling,NPK Mixture,19g,Monthly,Avoid excess watering,Clay,Both
+Leaf,Healthy,Fruiting,MOP,20g,Bi-Weekly,Ensure proper drainage,Not sure,Both
+Fruit,Anthracnose,Seedling,NPK Mixture,25g,Monthly,Clean fallen fruits,Loam,Dry season
+Fruit,Styler End Rot,Flowering,TSP,23g,Monthly,Ensure proper drainage,Sandy,Both
+Fruit,Healthy,Flowering,TSP,17g,Monthly,Apply after irrigation,Loam,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,10g,Monthly,Avoid excess watering,Clay,Both
+Fruit,Algal leaf spot,Flowering,NPK Mixture,17g,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Fruit,Rust,Seedling,NPK Mixture,16g,Monthly,Apply after irrigation,Loam,Rainy season
+Leaf,Styler End Rot,Fruiting,MOP,22g,Bi-Weekly,Clean fallen fruits,Clay,Dry season
+Fruit,Healthy,Fruiting,MOP,11g,Bi-Weekly,Clean fallen fruits,Loam,Both
+Fruit,Healthy,Fruiting,MOP,22g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Leaf,Anthracnose,Seedling,NPK Mixture,16g,Monthly,Clean fallen fruits,Loam,Both
+Fruit,Styler End Rot,Seedling,Organic Compost,261g,Monthly,Clean fallen fruits,Clay,Rainy season
+Leaf,Soft Rot,Seedling,Organic Compost,243g,Monthly,Avoid excess watering,Clay,Dry season
+Leaf,Rust,Vegetative,NPK Mixture,16g,Weekly,Avoid wetting leaves,Not sure,Rainy season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,9g,Monthly,Avoid wetting leaves,Loam,Rainy season
+Fruit,Rust,Fruiting,NPK Mixture,16g,Bi-Weekly,Clean fallen fruits,Clay,Both
+Fruit,Healthy,Flowering,TSP,11g,Monthly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Rust,Fruiting,NPK Mixture,16g,Bi-Weekly,Ensure proper drainage,Loam,Dry season
+Fruit,Soft Rot,Fruiting,Organic Compost,212g,Bi-Weekly,Mix lightly into topsoil,Loam,Rainy season
+Fruit,Soft Rot,Flowering,Organic Compost,223g,Weekly,Apply after irrigation,Not sure,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,26ml,Monthly,Mix lightly into topsoil,Loam,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,21g,Monthly,Mix lightly into topsoil,Clay,Both
+Leaf,Healthy,Seedling,Organic Compost,346g,Monthly,Avoid excess watering,Clay,Rainy season
+Leaf,Styler End Rot,Seedling,Organic Compost,207g,Monthly,Apply after irrigation,Not sure,Dry season
+Leaf,Styler End Rot,Flowering,TSP,13g,Bi-Weekly,Ensure proper drainage,Loam,Both
+Fruit,Rust,Vegetative,NPK Mixture,24g,Weekly,Avoid wetting leaves,Not sure,Dry season
+Fruit,Soft Rot,Seedling,Organic Compost,334g,Monthly,Avoid excess watering,Clay,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,13g,Monthly,Ensure proper drainage,Sandy,Both
+Leaf,Styler End Rot,Fruiting,MOP,10g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,15g,Bi-Weekly,Avoid wetting leaves,Sandy,Both
+Fruit,Fruit fly damage,Seedling,Bio Fertilizer,34ml,Monthly,Ensure proper drainage,Sandy,Rainy season
+Leaf,Anthracnose,Vegetative,NPK Mixture,22g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,16g,Bi-Weekly,Clean fallen fruits,Loam,Dry season
+Fruit,Healthy,Fruiting,MOP,11g,Bi-Weekly,Mix lightly into topsoil,Clay,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,10g,Bi-Weekly,Mix lightly into topsoil,Sandy,Both
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,34ml,Bi-Weekly,Avoid wetting leaves,Clay,Dry season
+Leaf,Styler End Rot,Fruiting,MOP,15g,Bi-Weekly,Apply after irrigation,Sandy,Rainy season
+Fruit,Soft Rot,Fruiting,Organic Compost,279g,Bi-Weekly,Apply after irrigation,Loam,Dry season
+Fruit,Anthracnose,Flowering,NPK Mixture,8g,Monthly,Ensure proper drainage,Clay,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,24g,Bi-Weekly,Mix lightly into topsoil,Clay,Both
+Fruit,Scab,Seedling,NPK Mixture,16g,Monthly,Clean fallen fruits,Not sure,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,38ml,Monthly,Apply after irrigation,Clay,Both
+Fruit,Anthracnose,Flowering,NPK Mixture,24g,Weekly,Mix lightly into topsoil,Not sure,Dry season
+Leaf,Soft Rot,Fruiting,Organic Compost,191g,Bi-Weekly,Apply after irrigation,Clay,Both
+Leaf,Styler End Rot,Seedling,Organic Compost,299g,Monthly,Avoid excess watering,Loam,Rainy season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,23ml,Monthly,Avoid excess watering,Sandy,Both
+Fruit,Scab,Vegetative,NPK Mixture,17g,Monthly,Ensure proper drainage,Sandy,Dry season
+Leaf,Styler End Rot,Seedling,Organic Compost,328g,Monthly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Styler End Rot,Fruiting,MOP,11g,Bi-Weekly,Avoid wetting leaves,Sandy,Both
+Leaf,Algal leaf spot,Seedling,NPK Mixture,15g,Monthly,Clean fallen fruits,Not sure,Both
+Fruit,Algal leaf spot,Seedling,NPK Mixture,17g,Monthly,Apply after irrigation,Not sure,Dry season
+Fruit,Algal leaf spot,Seedling,NPK Mixture,13g,Monthly,Avoid wetting leaves,Sandy,Dry season
+Leaf,Rust,Flowering,NPK Mixture,8g,Weekly,Avoid excess watering,Sandy,Both
+Fruit,Scab,Fruiting,NPK Mixture,9g,Bi-Weekly,Ensure proper drainage,Not sure,Both
+Leaf,Soft Rot,Seedling,Organic Compost,285g,Monthly,Clean fallen fruits,Loam,Rainy season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,29ml,Bi-Weekly,Ensure proper drainage,Loam,Both
+Fruit,Styler End Rot,Fruiting,MOP,23g,Bi-Weekly,Clean fallen fruits,Loam,Rainy season
+Fruit,Soft Rot,Vegetative,Organic Compost,150g,Bi-Weekly,Ensure proper drainage,Clay,Rainy season
+Leaf,Styler End Rot,Flowering,TSP,14g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,26ml,Bi-Weekly,Clean fallen fruits,Clay,Both
+Leaf,Styler End Rot,Seedling,Organic Compost,243g,Monthly,Apply after irrigation,Not sure,Dry season
+Fruit,Anthracnose,Fruiting,NPK Mixture,19g,Bi-Weekly,Avoid excess watering,Sandy,Rainy season
+Fruit,Scab,Flowering,NPK Mixture,11g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Leaf,Healthy,Fruiting,MOP,9g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Anthracnose,Vegetative,NPK Mixture,12g,Bi-Weekly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Soft Rot,Seedling,Organic Compost,350g,Monthly,Clean fallen fruits,Loam,Dry season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,23ml,Bi-Weekly,Mix lightly into topsoil,Loam,Dry season
+Fruit,Anthracnose,Vegetative,NPK Mixture,24g,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Leaf,Healthy,Vegetative,MOP,8g,Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Scab,Flowering,NPK Mixture,21g,Weekly,Apply after irrigation,Sandy,Rainy season
+Fruit,Healthy,Vegetative,Farmyard Manure,223g,Monthly,Avoid wetting leaves,Loam,Both
+Fruit,Healthy,Seedling,Organic Compost,322g,Monthly,Avoid excess watering,Sandy,Rainy season
+Fruit,Styler End Rot,Flowering,TSP,25g,Bi-Weekly,Avoid excess watering,Sandy,Dry season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,19g,Bi-Weekly,Avoid wetting leaves,Sandy,Both
+Leaf,Scab,Seedling,NPK Mixture,21g,Monthly,Clean fallen fruits,Loam,Both
+Leaf,Anthracnose,Flowering,NPK Mixture,13g,Weekly,Clean fallen fruits,Sandy,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,20g,Weekly,Avoid excess watering,Sandy,Rainy season
+Fruit,Scab,Vegetative,NPK Mixture,9g,Monthly,Clean fallen fruits,Sandy,Rainy season
+Leaf,Healthy,Vegetative,Bio Fertilizer,29ml,Monthly,Ensure proper drainage,Clay,Rainy season
+Fruit,Rust,Seedling,NPK Mixture,19g,Monthly,Clean fallen fruits,Loam,Rainy season
+Fruit,Styler End Rot,Fruiting,MOP,12g,Bi-Weekly,Ensure proper drainage,Sandy,Dry season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,39ml,Bi-Weekly,Clean fallen fruits,Clay,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,24g,Monthly,Ensure proper drainage,Loam,Rainy season
+Fruit,Soft Rot,Seedling,Organic Compost,331g,Monthly,Clean fallen fruits,Sandy,Rainy season
+Leaf,Scab,Seedling,NPK Mixture,24g,Monthly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Styler End Rot,Fruiting,MOP,22g,Bi-Weekly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Scab,Fruiting,NPK Mixture,20g,Bi-Weekly,Clean fallen fruits,Loam,Both
+Fruit,Styler End Rot,Fruiting,MOP,13g,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Fruit,Anthracnose,Fruiting,NPK Mixture,24g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Leaf,Healthy,Vegetative,Farmyard Manure,153g,Monthly,Mix lightly into topsoil,Loam,Dry season
+Fruit,Healthy,Vegetative,Urea,13g,Weekly,Clean fallen fruits,Loam,Both
+Fruit,Rust,Vegetative,NPK Mixture,12g,Monthly,Ensure proper drainage,Loam,Dry season
+Fruit,Soft Rot,Flowering,Organic Compost,312g,Bi-Weekly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Anthracnose,Vegetative,NPK Mixture,15g,Bi-Weekly,Clean fallen fruits,Not sure,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,25ml,Weekly,Clean fallen fruits,Clay,Dry season
+Leaf,Algal leaf spot,Seedling,NPK Mixture,10g,Monthly,Mix lightly into topsoil,Sandy,Both
+Fruit,Soft Rot,Seedling,Organic Compost,341g,Monthly,Apply after irrigation,Sandy,Rainy season
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,38ml,Monthly,Ensure proper drainage,Not sure,Both
+Leaf,Rust,Seedling,NPK Mixture,14g,Monthly,Apply after irrigation,Not sure,Rainy season
+Leaf,Soft Rot,Vegetative,Organic Compost,273g,Bi-Weekly,Clean fallen fruits,Sandy,Dry season
+Leaf,Rust,Flowering,NPK Mixture,20g,Bi-Weekly,Mix lightly into topsoil,Not sure,Dry season
+Leaf,Rust,Fruiting,NPK Mixture,13g,Bi-Weekly,Apply after irrigation,Loam,Rainy season
+Leaf,Healthy,Seedling,Organic Compost,304g,Monthly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Healthy,Flowering,TSP,23g,Bi-Weekly,Ensure proper drainage,Not sure,Rainy season
+Fruit,Styler End Rot,Seedling,Organic Compost,218g,Monthly,Ensure proper drainage,Sandy,Both
+Leaf,Healthy,Fruiting,MOP,25g,Bi-Weekly,Apply after irrigation,Sandy,Rainy season
+Fruit,Styler End Rot,Vegetative,Bio Fertilizer,22ml,Bi-Weekly,Clean fallen fruits,Loam,Both
+Leaf,Healthy,Vegetative,Bio Fertilizer,27ml,Monthly,Clean fallen fruits,Clay,Rainy season
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,16g,Bi-Weekly,Avoid excess watering,Not sure,Both
+Leaf,Soft Rot,Flowering,Organic Compost,313g,Weekly,Ensure proper drainage,Loam,Rainy season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,28ml,Bi-Weekly,Mix lightly into topsoil,Clay,Dry season
+Fruit,Rust,Fruiting,NPK Mixture,13g,Bi-Weekly,Ensure proper drainage,Sandy,Rainy season
+Fruit,Rust,Flowering,NPK Mixture,8g,Monthly,Avoid excess watering,Clay,Both
+Leaf,Scab,Vegetative,NPK Mixture,10g,Bi-Weekly,Ensure proper drainage,Loam,Dry season
+Fruit,Healthy,Seedling,Organic Compost,234g,Monthly,Ensure proper drainage,Clay,Rainy season
+Leaf,Anthracnose,Seedling,NPK Mixture,11g,Monthly,Avoid wetting leaves,Clay,Rainy season
+Leaf,Anthracnose,Vegetative,NPK Mixture,11g,Weekly,Avoid excess watering,Sandy,Rainy season
+Leaf,Anthracnose,Flowering,NPK Mixture,12g,Weekly,Avoid excess watering,Not sure,Both
+Fruit,Styler End Rot,Fruiting,MOP,25g,Bi-Weekly,Clean fallen fruits,Clay,Both
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,37ml,Bi-Weekly,Clean fallen fruits,Clay,Rainy season
+Leaf,Algal leaf spot,Seedling,NPK Mixture,9g,Monthly,Avoid wetting leaves,Loam,Rainy season
+Fruit,Algal leaf spot,Vegetative,NPK Mixture,25g,Weekly,Mix lightly into topsoil,Loam,Dry season
+Leaf,Soft Rot,Fruiting,Organic Compost,338g,Bi-Weekly,Clean fallen fruits,Sandy,Dry season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,34ml,Monthly,Apply after irrigation,Not sure,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,17g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Leaf,Rust,Flowering,NPK Mixture,14g,Weekly,Apply after irrigation,Sandy,Both
+Leaf,Fruit fly damage,Flowering,Bio Fertilizer,34ml,Weekly,Mix lightly into topsoil,Sandy,Rainy season
+Leaf,Scab,Seedling,NPK Mixture,25g,Monthly,Avoid excess watering,Clay,Dry season
+Leaf,Scab,Seedling,NPK Mixture,20g,Monthly,Avoid excess watering,Not sure,Both
+Leaf,Healthy,Seedling,Organic Compost,284g,Monthly,Apply after irrigation,Clay,Rainy season
+Fruit,Styler End Rot,Seedling,Organic Compost,315g,Monthly,Apply after irrigation,Clay,Dry season
+Fruit,Healthy,Seedling,Organic Compost,295g,Monthly,Clean fallen fruits,Loam,Rainy season
+Leaf,Soft Rot,Fruiting,Organic Compost,229g,Bi-Weekly,Mix lightly into topsoil,Sandy,Dry season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,28ml,Weekly,Avoid excess watering,Loam,Both
+Leaf,Scab,Seedling,NPK Mixture,20g,Monthly,Clean fallen fruits,Sandy,Dry season
+Leaf,Healthy,Flowering,TSP,24g,Bi-Weekly,Ensure proper drainage,Clay,Dry season
+Fruit,Healthy,Seedling,Organic Compost,316g,Monthly,Apply after irrigation,Loam,Rainy season
+Leaf,Soft Rot,Flowering,Organic Compost,201g,Weekly,Avoid wetting leaves,Sandy,Rainy season
+Fruit,Scab,Fruiting,NPK Mixture,20g,Bi-Weekly,Avoid wetting leaves,Loam,Rainy season
+Fruit,Healthy,Fruiting,MOP,15g,Bi-Weekly,Ensure proper drainage,Sandy,Rainy season
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,27ml,Bi-Weekly,Apply after irrigation,Clay,Dry season
+Leaf,Rust,Vegetative,NPK Mixture,19g,Monthly,Avoid excess watering,Not sure,Rainy season
+Fruit,Rust,Seedling,NPK Mixture,15g,Monthly,Apply after irrigation,Loam,Rainy season
+Leaf,Healthy,Fruiting,MOP,16g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Leaf,Styler End Rot,Fruiting,MOP,10g,Bi-Weekly,Avoid wetting leaves,Not sure,Dry season
+Leaf,Fruit fly damage,Fruiting,Bio Fertilizer,27ml,Bi-Weekly,Ensure proper drainage,Loam,Both
+Fruit,Rust,Fruiting,NPK Mixture,18g,Bi-Weekly,Clean fallen fruits,Loam,Dry season
+Leaf,Styler End Rot,Seedling,Organic Compost,312g,Monthly,Apply after irrigation,Not sure,Both
+Fruit,Healthy,Fruiting,MOP,23g,Bi-Weekly,Apply after irrigation,Clay,Both
+Leaf,Algal leaf spot,Flowering,NPK Mixture,11g,Monthly,Avoid wetting leaves,Clay,Dry season
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,20ml,Bi-Weekly,Clean fallen fruits,Loam,Dry season
+Leaf,Anthracnose,Seedling,NPK Mixture,13g,Monthly,Apply after irrigation,Clay,Both
+Fruit,Anthracnose,Vegetative,NPK Mixture,21g,Weekly,Ensure proper drainage,Sandy,Both
+Fruit,Healthy,Flowering,TSP,19g,Weekly,Apply after irrigation,Loam,Both
+Leaf,Anthracnose,Seedling,NPK Mixture,8g,Monthly,Mix lightly into topsoil,Loam,Rainy season
+Leaf,Healthy,Vegetative,Bio Fertilizer,29ml,Bi-Weekly,Avoid wetting leaves,Not sure,Both
+Fruit,Scab,Flowering,NPK Mixture,12g,Monthly,Apply after irrigation,Loam,Both
+Leaf,Rust,Vegetative,NPK Mixture,22g,Bi-Weekly,Ensure proper drainage,Loam,Dry season
+Leaf,Anthracnose,Fruiting,NPK Mixture,19g,Bi-Weekly,Ensure proper drainage,Sandy,Dry season
+Fruit,Healthy,Flowering,TSP,14g,Monthly,Avoid excess watering,Sandy,Dry season
+Leaf,Soft Rot,Fruiting,Organic Compost,166g,Bi-Weekly,Clean fallen fruits,Not sure,Both
+Leaf,Anthracnose,Fruiting,NPK Mixture,14g,Bi-Weekly,Mix lightly into topsoil,Clay,Rainy season
+Leaf,Styler End Rot,Seedling,Organic Compost,265g,Monthly,Clean fallen fruits,Not sure,Dry season
+Leaf,Scab,Vegetative,NPK Mixture,13g,Bi-Weekly,Avoid wetting leaves,Clay,Both
+Leaf,Soft Rot,Vegetative,Organic Compost,237g,Weekly,Avoid wetting leaves,Sandy,Dry season
+Fruit,Anthracnose,Seedling,NPK Mixture,22g,Monthly,Avoid excess watering,Sandy,Dry season
+Fruit,Fruit fly damage,Vegetative,Bio Fertilizer,23ml,Weekly,Avoid wetting leaves,Loam,Rainy season
+Fruit,Anthracnose,Vegetative,NPK Mixture,10g,Monthly,Clean fallen fruits,Sandy,Both
+Fruit,Styler End Rot,Seedling,Organic Compost,332g,Monthly,Apply after irrigation,Not sure,Dry season
+Leaf,Algal leaf spot,Fruiting,NPK Mixture,15g,Bi-Weekly,Ensure proper drainage,Sandy,Dry season
+Fruit,Scab,Fruiting,NPK Mixture,23g,Bi-Weekly,Ensure proper drainage,Clay,Both
+Fruit,Scab,Fruiting,NPK Mixture,19g,Bi-Weekly,Ensure proper drainage,Clay,Rainy season
+Leaf,Rust,Fruiting,NPK Mixture,22g,Bi-Weekly,Apply after irrigation,Not sure,Rainy season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,16g,Monthly,Avoid excess watering,Clay,Rainy season
+Leaf,Fruit fly damage,Vegetative,Bio Fertilizer,36ml,Bi-Weekly,Apply after irrigation,Not sure,Both
+Fruit,Fruit fly damage,Fruiting,Bio Fertilizer,26ml,Bi-Weekly,Ensure proper drainage,Sandy,Both
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,20g,Bi-Weekly,Ensure proper drainage,Not sure,Dry season
+Fruit,Scab,Flowering,NPK Mixture,21g,Monthly,Avoid excess watering,Clay,Both
+Fruit,Rust,Fruiting,NPK Mixture,11g,Bi-Weekly,Apply after irrigation,Not sure,Both
+Fruit,Scab,Seedling,NPK Mixture,13g,Monthly,Apply after irrigation,Sandy,Rainy season
+Fruit,Rust,Vegetative,NPK Mixture,12g,Bi-Weekly,Clean fallen fruits,Sandy,Rainy season
+Leaf,Rust,Fruiting,NPK Mixture,17g,Bi-Weekly,Clean fallen fruits,Sandy,Both
+Fruit,Anthracnose,Vegetative,NPK Mixture,8g,Monthly,Ensure proper drainage,Not sure,Both
+Fruit,Algal leaf spot,Fruiting,NPK Mixture,16g,Bi-Weekly,Apply after irrigation,Sandy,Dry season
+Fruit,Healthy,Fruiting,MOP,16g,Bi-Weekly,Avoid wetting leaves,Sandy,Rainy season
+Leaf,Styler End Rot,Seedling,Organic Compost,238g,Monthly,Avoid excess watering,Loam,Rainy season
+Leaf,Anthracnose,Seedling,NPK Mixture,19g,Monthly,Ensure proper drainage,Not sure,Dry season
+Leaf,Algal leaf spot,Vegetative,NPK Mixture,25g,Bi-Weekly,Apply after irrigation,Not sure,Both
+Leaf,Rust,Seedling,NPK Mixture,16g,Monthly,Avoid wetting leaves,Loam,Both
+Leaf,Rust,Seedling,NPK Mixture,14g,Monthly,Mix lightly into topsoil,Not sure,Rainy season
+Fruit,Rust,Vegetative,NPK Mixture,8g,Weekly,Avoid wetting leaves,Clay,Rainy season
+Fruit,Algal leaf spot,Flowering,NPK Mixture,17g,Monthly,Ensure proper drainage,Loam,Dry season
+Fruit,Styler End Rot,Seedling,Organic Compost,162g,Monthly,Apply after irrigation,Loam,Both
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,30ml,Monthly,Avoid wetting leaves,Not sure,Dry season
+Fruit,Fruit fly damage,Flowering,Bio Fertilizer,37ml,Monthly,Clean fallen fruits,Not sure,Dry season
+Fruit,Styler End Rot,Fruiting,MOP,20g,Bi-Weekly,Clean fallen fruits,Sandy,Both
