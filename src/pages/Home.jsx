@@ -193,7 +193,7 @@ export default function Home() {
               </Button>
 
               <Button
-                onClick={analyzeGuavaRequest}
+                onClick={analyzeGuava}
                 disabled={
                   loading ||
                   !formData.plantation_date ||
