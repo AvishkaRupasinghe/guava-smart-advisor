@@ -6,6 +6,7 @@ import PlantationForm from "@/components/PlantationForm";
 import ResultsDisplay from "@/components/ResultsDisplay";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { analyzeGuava } from "@/services/api";
 
 export default function Home() {
   const [step, setStep] = useState(1);
@@ -52,12 +53,13 @@ export default function Home() {
       payload.append("soil_type", formData.soil_type);
       payload.append("weather", formData.weather);
 
-      const response = await fetch("http://127.0.0.1:8000/analyze", {
-        method: "POST",
-        body: payload,
-      });
+      // const response = await fetch("http://127.0.0.1:8000/analyze", {
+      //   method: "POST",
+      //   body: payload,
+      // });
 
-      const data = await response.json();
+      // const data = await response.json();
+      const data = await analyzeGuava(payload);
       setResults(data);
       setStep(3);
     } catch (error) {
@@ -191,7 +193,7 @@ export default function Home() {
               </Button>
 
               <Button
-                onClick={analyzeGuava}
+                onClick={analyzeGuavaRequest}
                 disabled={
                   loading ||
                   !formData.plantation_date ||
