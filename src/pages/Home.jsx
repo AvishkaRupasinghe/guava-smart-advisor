@@ -6,7 +6,7 @@ import PlantationForm from "@/components/PlantationForm";
 import ResultsDisplay from "@/components/ResultsDisplay";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/i18n/LanguageContext";
-import { analyzeGuava } from "@/services/api";
+import { analyzeGuava as analyzeGuavaAPI } from "@/services/api";
 
 export default function Home() {
   const [step, setStep] = useState(1);
@@ -40,7 +40,7 @@ export default function Home() {
   // -------------------------
   // API CALL
   // -------------------------
-  const analyzeGuava = async () => {
+  const handleAnalyze = async () => {
     if (!imageFile) return;
 
     setLoading(true);
@@ -59,7 +59,7 @@ export default function Home() {
       // });
 
       // const data = await response.json();
-      const data = await analyzeGuava(payload);
+      const data = await analyzeGuavaAPI(payload);
       setResults(data);
       setStep(3);
     } catch (error) {
@@ -193,7 +193,7 @@ export default function Home() {
               </Button>
 
               <Button
-                onClick={analyzeGuava}
+                onClick={handleAnalyze}
                 disabled={
                   loading ||
                   !formData.plantation_date ||
