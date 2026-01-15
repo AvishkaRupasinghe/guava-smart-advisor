@@ -93,7 +93,7 @@ export const translations = {
 
     si: {
         // යෙදුම & සංචාලනය
-        appTitle: "ගුවා ස්මාර්ට් උපදේශක",
+        appTitle: "පේර ස්මාර්ට් උපදේශක",
         appTagline: "ඔබේ ගොවි සහකරු",
         uploadStep: "උඩුගත කරන්න",
         detailsStep: "විස්තර",
@@ -105,7 +105,7 @@ export const translations = {
         analyzeAgain: "තවත් ශාකයක් විශ්ලේෂණය කරන්න",
 
         // රූපය & විශ්ලේෂණය
-        uploadTitle: "ගුවා රූපය උඩුගත කරන්න",
+        uploadTitle: "පේර රූපය උඩුගත කරන්න",
         uploadSubtitle: "ඔබේ පේර කොළයේ හෝ පලතුරේ ඡායාරූපයක් ගන්න",
         analysisComplete: "විශ්ලේෂණය සම්පූර්ණයි",
         foundText: "ඔබේ පේර ශාකය ගැන අපට හමු වූ දේ මෙන්න",
@@ -141,10 +141,10 @@ export const translations = {
         plantationTitle: "වගා විස්තර",
         plantationSubtitle: "ඔබේ පේර ශාකය පිළිබඳ විස්තර ලබා දෙන්න",
         plantationDate: "වගා දිනය",
-        guavaType: "ගුවා වර්ගය",
-        selectGuavaType: "ගුවා වර්ගය තෝරන්න...",
+        guavaType: "පේර වර්ගය",
+        selectGuavaType: "පේර වර්ගය තෝරන්න...",
         soilType: "පස වර්ගය",
-        selectSoilType: "මண் වර්ගය තෝරන්න...",
+        selectSoilType: " පස වර්ගය තෝරන්න...",
         currentSeason: "වත්මන් ඍතුව",
         selectSeason: "ඍතුව තෝරන්න...",
 
@@ -266,7 +266,7 @@ export const translations = {
         tipNoStagnation: "தாவர அடிப்பகுதியில் நீர் தேங்காமல் பார்த்துக்கொள்ளவும்.",
         tipWatering: "வறண்ட காலங்களில் முறையான நீர்ப்பாசனம் அவசியம்.",
         tipMulching: "மல்சிங் மண்ணின் ஈரப்பதத்தை பாதுகாக்க உதவும்.",
-        tipCleanTools: "剪 pruning செய்யும்போது சுத்தமான கருவிகளை பயன்படுத்தவும்.",
+        tipCleanTools: "செய்யும்போது சுத்தமான கருவிகளை பயன்படுத்தவும்.",
         tipRemoveDebris: "விழுந்த இலைகள் மற்றும் பழங்களை அகற்றவும்.",
 
     },
