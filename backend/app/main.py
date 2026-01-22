@@ -36,8 +36,12 @@ def calculate_age_in_months(plantation_date: str) -> int:
     """
     planted = datetime.strptime(plantation_date, "%Y-%m-%d")
     today = datetime.today()
-    months = (today.year - planted.year) * 12 + (today.month - planted.month)
-    return max(months, 0)
+
+    if planted > today:
+        raise ValueError("Plantation date cannot be in the future.")
+    
+    age_days = (today - planted).days
+    return age_days // 30
 
 # =========================
 # HEALTH CHECK
@@ -77,7 +81,15 @@ async def analyze_guava(
 
         # 2️⃣ Growth Stage
         age_months = calculate_age_in_months(plantation_date)
-        growth_stage = estimate_growth_stage(guava_variety, age_months)
+
+        # Normalise guava variety
+        guava_variety_clean = guava_variety.strip().lower()
+        if "hybrid" in guava_variety_clean:
+            guava_variety_clean = "hybrid"
+        else:
+            guava_variety_clean = "natural"
+
+        growth_stage = estimate_growth_stage(guava_variety_clean, age_months)
 
         # 3️⃣ Fertilizer Recommendation
         fert_result = recommend_fertilizer(

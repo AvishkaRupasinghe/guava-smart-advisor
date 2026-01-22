@@ -7,7 +7,7 @@ dist-ssr/
 *.local
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -41,3 +41,18 @@ venv/
 *.njsproj
 *.sln
 *.sw?
+
+# =====================
+# Capacitor / Android
+# =====================
+android/
+android-build/
+capacitor.config.json
+
+# Android build outputs
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+build/

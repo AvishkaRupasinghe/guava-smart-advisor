@@ -5,20 +5,16 @@ from pathlib import Path
 # Load Dataset (once)
 # -------------------------
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "guava_fertilizer_dataset.csv"
-
 df = pd.read_csv(DATA_PATH)
 
-# Normalize dataset text
+# -------------------------
+# Normalise dataset
+# -------------------------
+def norm(s):
+    return str(s).strip().lower()
+
 for col in df.columns:
-    df[col] = df[col].astype(str).str.strip()
-
-
-# -------------------------
-# Helpers
-# -------------------------
-def normalize(text: str) -> str:
-    return str(text).strip().title()
-
+    df[col] = df[col].apply(norm)
 
 # -------------------------
 # Fertilizer Recommendation
@@ -30,66 +26,67 @@ def recommend_fertilizer(
     soil_type: str,
     weather: str,
 ):
-    plant_type = normalize(plant_type)
-    disease = normalize(disease)
-    growth_stage = normalize(growth_stage)
-    soil_type = normalize(soil_type)
-    weather = normalize(weather)
+    plant_type = norm(plant_type)
+    disease = norm(disease)
+    growth_stage = norm(growth_stage)
+    soil_type = norm(soil_type)
+    weather = norm(weather)
 
-    # Base filter
-    filtered = df[
-        (df["Type"] == plant_type) &
-        (df["Disease"] == disease) &
-        (df["Growth Stage"] == growth_stage)
+    # -------------------------
+    # Step 1: Mandatory filters
+    # -------------------------
+    candidates = df[
+        (df["type"] == plant_type) &
+        (df["disease"] == disease)
     ]
 
-    if filtered.empty:
+    if candidates.empty:
         return {
             "status": "no_match",
-            "message": "No base recommendation found"
+            "message": "No recommendation for plant type and disease"
         }
 
-    # Soil refinement
-    if soil_type != "Not Sure":
-        soil_match = filtered[filtered["Soil Type"] == soil_type]
-        if not soil_match.empty:
-            filtered = soil_match
+    # -------------------------
+    # Step 2: Growth stage (flexible)
+    # -------------------------
+    stage_match = candidates[candidates["growth stage"] == growth_stage]
+    if not stage_match.empty:
+        candidates = stage_match
 
-    # Weather refinement
-    weather_match = filtered[
-        (filtered["Weather"] == weather) |
-        (filtered["Weather"] == "Both")
+    # -------------------------
+    # Step 3: Soil refinement (optional)
+    # -------------------------
+    if soil_type not in ["not sure", "any", "all"]:
+        soil_match = candidates[
+            (candidates["soil type"] == soil_type) |
+            (candidates["soil type"].isin(["any", "all"]))
+        ]
+        if not soil_match.empty:
+            candidates = soil_match
+
+    # -------------------------
+    # Step 4: Weather refinement
+    # -------------------------
+    weather_match = candidates[
+        (candidates["weather"] == weather) |
+        (candidates["weather"].isin(["both", "any", "all"]))
     ]
 
     if weather_match.empty:
-        return {
-            "status": "no_match",
-            "message": "No recommendation for given weather"
-        }
+        weather_match = candidates  # fallback
 
     rec = weather_match.iloc[0]
 
     return {
         "status": "success",
         "fertilizer_recommendation": {
-            "type": rec["Fertilizer"],
-            "quantity": rec["Quantity"],
-            "frequency": rec["Frequency"],
-            "application_notes": rec["Notes"],
+            "type": rec["fertilizer"],
+            "quantity": rec["quantity"],
+            "frequency": rec["frequency"],
+            "application_notes": rec["notes"],
         },
         "reasoning": (
-            f"{plant_type} affected by {disease} at {growth_stage} stage "
-            f"under {weather} conditions and {soil_type} soil."
+            f"Based on {plant_type} affected by {disease} during {growth_stage} stage, "
+            f"considering {soil_type} soil and {weather} conditions."
         )
     }
-
-
-if __name__ == "__main__":
-    result = recommend_fertilizer(
-        plant_type="Leaf",
-        disease="Anthracnose",
-        growth_stage="Fruiting",
-        soil_type="Loam",
-        weather="Rainy Season",
-    )
-    print(result)

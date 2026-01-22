@@ -145,6 +145,7 @@ export const translations = {
         selectGuavaType: "පේර වර්ගය තෝරන්න...",
         soilType: "පස වර්ගය",
         selectSoilType: " පස වර්ගය තෝරන්න...",
+        selectSoilType: "පස වර්ගය තෝරන්න...",
         currentSeason: "වත්මන් ඍතුව",
         selectSeason: "ඍතුව තෝරන්න...",
 

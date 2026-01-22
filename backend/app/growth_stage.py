@@ -41,6 +41,6 @@ def estimate_growth_stage(variety: str, age_months: int) -> str:
         raise ValueError("Variety must be 'Natural' or 'Hybrid'")
 
 if __name__ == "__main__":
-    age = calculate_age_in_months("2025-02-15")
+    age = calculate_age_in_months("2026-02-15")
     stage = estimate_growth_stage("Hybrid", age)
     print(age, stage)
