@@ -16,22 +16,6 @@ from .growth_stage import estimate_growth_stage
 from .fertilizer import recommend_fertilizer
 
 # =========================
-# APP INIT
-# =========================
-app = FastAPI(title="Guava Smart Advisor API")
-
-# -------------------------
-# CORS (safe even if frontend is served by same app)
-# -------------------------
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # acceptable for research/demo
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# =========================
 # PATHS
 # =========================
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -41,17 +25,44 @@ UPLOAD_DIR = BASE_DIR / "temp_uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # =========================
-# SERVE FRONTEND (REACT)
+# APP INIT
+# =========================
+app = FastAPI(title="Guava Smart Advisor API")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # acceptable for demo and same-origin production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# =========================
+# SERVE FRONTEND (VITE + PWA)
 # =========================
 if FRONTEND_DIST.exists():
-    # Serve Vite assets
+
+    # Assets (JS, CSS, images)
     app.mount(
         "/assets",
         StaticFiles(directory=FRONTEND_DIST / "assets"),
         name="assets",
     )
 
-    # Serve main app
+    # PWA required files
+    @app.get("/manifest.webmanifest")
+    def manifest():
+        return FileResponse(FRONTEND_DIST / "manifest.webmanifest")
+
+    @app.get("/registerSW.js")
+    def register_sw():
+        return FileResponse(FRONTEND_DIST / "registerSW.js")
+
+    @app.get("/sw.js")
+    def service_worker():
+        return FileResponse(FRONTEND_DIST / "sw.js")
+
+    # Main frontend entry
     @app.get("/")
     def serve_frontend():
         return FileResponse(FRONTEND_DIST / "index.html")
@@ -60,23 +71,19 @@ if FRONTEND_DIST.exists():
 # UTILS
 # =========================
 def calculate_age_in_months(plantation_date: str) -> int:
-    """
-    plantation_date format: YYYY-MM-DD
-    """
     planted = datetime.strptime(plantation_date, "%Y-%m-%d")
     today = datetime.today()
 
     if planted > today:
         raise ValueError("Plantation date cannot be in the future.")
 
-    age_days = (today - planted).days
-    return age_days // 30
+    return (today - planted).days // 30
 
 # =========================
 # HEALTH CHECK
 # =========================
 @app.get("/health")
-def health_check():
+def health():
     return {"status": "ok"}
 
 # =========================
@@ -90,10 +97,6 @@ async def analyze_guava(
     soil_type: str = Form(...),
     weather: str = Form(...),
 ):
-    """
-    Image → Disease → Growth Stage → Fertiliser
-    """
-
     ext = image.filename.split(".")[-1]
     image_id = f"{uuid.uuid4()}.{ext}"
     image_path = UPLOAD_DIR / image_id
@@ -102,25 +105,22 @@ async def analyze_guava(
         shutil.copyfileobj(image.file, buffer)
 
     try:
-        # 1️⃣ Disease Detection
+        # 1. Inference
         inference_result = run_inference(str(image_path))
 
-        plant_part = inference_result["plant_part"]
-        disease = inference_result["disease"]
+        # Defensive extraction (prevents 'type' crash)
+        plant_part = inference_result.get("plant_part", "unknown")
+        disease = inference_result.get("disease", "unknown")
 
-        # 2️⃣ Growth Stage
+        # 2. Growth stage
         age_months = calculate_age_in_months(plantation_date)
 
-        # Normalise guava variety
-        variety_clean = guava_variety.strip().lower()
-        if "hybrid" in variety_clean:
-            variety_clean = "hybrid"
-        else:
-            variety_clean = "natural"
+        variety = guava_variety.strip().lower()
+        variety = "hybrid" if "hybrid" in variety else "natural"
 
-        growth_stage = estimate_growth_stage(variety_clean, age_months)
+        growth_stage = estimate_growth_stage(variety, age_months)
 
-        # 3️⃣ Fertiliser Recommendation
+        # 3. Fertiliser recommendation
         fert_result = recommend_fertilizer(
             plant_type=plant_part,
             disease=disease,
@@ -130,21 +130,24 @@ async def analyze_guava(
         )
 
         return {
+            "status": "success",
             "plant_type": plant_part,
-            "plant_part_confidence": inference_result["plant_part_confidence"],
+            "plant_part_confidence": inference_result.get("plant_part_confidence"),
             "detected_disease": disease,
-            "disease_confidence": inference_result["disease_confidence"],
+            "disease_confidence": inference_result.get("disease_confidence"),
             "growth_stage": growth_stage,
             "plant_age_months": age_months,
             "fertilizer_recommendation": fert_result.get("fertilizer_recommendation"),
             "reasoning": fert_result.get("reasoning"),
-            "status": fert_result.get("status", "success"),
         }
 
     except Exception as e:
         return JSONResponse(
             status_code=400,
-            content={"status": "error", "message": str(e)},
+            content={
+                "status": "error",
+                "message": str(e),
+            },
         )
 
     finally:
