@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 FRONTEND_DIST = BASE_DIR / "dist"
 UPLOAD_DIR = BASE_DIR / "temp_uploads"
 
-os.makedirs(UPLOAD_DIR, exist_ok=True)
+UPLOAD_DIR.mkdir(exist_ok=True)
 
 # =========================
 # APP INIT
@@ -31,7 +31,7 @@ app = FastAPI(title="Guava Smart Advisor API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # acceptable for demo and same-origin production
+    allow_origins=["*"],  # safe for demo + same-origin deployment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -42,14 +42,12 @@ app.add_middleware(
 # =========================
 if FRONTEND_DIST.exists():
 
-    # Assets (JS, CSS, images)
     app.mount(
         "/assets",
         StaticFiles(directory=FRONTEND_DIST / "assets"),
         name="assets",
     )
 
-    # PWA required files
     @app.get("/manifest.webmanifest")
     def manifest():
         return FileResponse(FRONTEND_DIST / "manifest.webmanifest")
@@ -62,7 +60,6 @@ if FRONTEND_DIST.exists():
     def service_worker():
         return FileResponse(FRONTEND_DIST / "sw.js")
 
-    # Main frontend entry
     @app.get("/")
     def serve_frontend():
         return FileResponse(FRONTEND_DIST / "index.html")
@@ -97,8 +94,7 @@ async def analyze_guava(
     soil_type: str = Form(...),
     weather: str = Form(...),
 ):
-    ext = image.filename.split(".")[-1]
-    image_id = f"{uuid.uuid4()}.{ext}"
+    image_id = f"{uuid.uuid4()}.{image.filename.split('.')[-1]}"
     image_path = UPLOAD_DIR / image_id
 
     with open(image_path, "wb") as buffer:
@@ -106,22 +102,18 @@ async def analyze_guava(
 
     try:
         # 1. Inference
-        inference_result = run_inference(str(image_path))
+        inference = run_inference(str(image_path))
 
-        # Defensive extraction (prevents 'type' crash)
-        plant_part = inference_result.get("plant_part", "unknown")
-        disease = inference_result.get("disease", "unknown")
+        plant_part = inference.get("plant_part", "unknown")
+        disease = inference.get("disease", "unknown")
 
         # 2. Growth stage
         age_months = calculate_age_in_months(plantation_date)
-
-        variety = guava_variety.strip().lower()
-        variety = "hybrid" if "hybrid" in variety else "natural"
-
+        variety = "hybrid" if "hybrid" in guava_variety.lower() else "natural"
         growth_stage = estimate_growth_stage(variety, age_months)
 
-        # 3. Fertiliser recommendation
-        fert_result = recommend_fertilizer(
+        # 3. Fertiliser
+        fert = recommend_fertilizer(
             plant_type=plant_part,
             disease=disease,
             growth_stage=growth_stage,
@@ -132,22 +124,19 @@ async def analyze_guava(
         return {
             "status": "success",
             "plant_type": plant_part,
-            "plant_part_confidence": inference_result.get("plant_part_confidence"),
+            "plant_part_confidence": inference.get("plant_part_confidence"),
             "detected_disease": disease,
-            "disease_confidence": inference_result.get("disease_confidence"),
+            "disease_confidence": inference.get("disease_confidence"),
             "growth_stage": growth_stage,
             "plant_age_months": age_months,
-            "fertilizer_recommendation": fert_result.get("fertilizer_recommendation"),
-            "reasoning": fert_result.get("reasoning"),
+            "fertilizer_recommendation": fert.get("fertilizer_recommendation"),
+            "reasoning": fert.get("reasoning"),
         }
 
     except Exception as e:
         return JSONResponse(
             status_code=400,
-            content={
-                "status": "error",
-                "message": str(e),
-            },
+            content={"status": "error", "message": str(e)},
         )
 
     finally:
@@ -155,13 +144,8 @@ async def analyze_guava(
             image_path.unlink()
 
 # =========================
-# LOCAL DEV ENTRY
+# LOCAL DEV
 # =========================
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(
-        "backend.app.main:app",
-        host="0.0.0.0",
-        port=8000,
-        reload=False,
-    )
+    uvicorn.run("backend.app.main:app", host="0.0.0.0", port=8000)
