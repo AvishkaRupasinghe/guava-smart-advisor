@@ -149,3 +149,18 @@ async def analyze_guava(
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("backend.app.main:app", host="0.0.0.0", port=8000)
+
+
+# =========================
+# SPA FALLBACK (IMPORTANT)
+# =========================
+if FRONTEND_DIST.exists():
+    @app.get("/{full_path:path}")
+    def spa_fallback(full_path: str):
+        file_path = FRONTEND_DIST / full_path
+
+        if file_path.exists() and file_path.is_file():
+            return FileResponse(file_path)
+
+        return FileResponse(FRONTEND_DIST / "index.html")
+
